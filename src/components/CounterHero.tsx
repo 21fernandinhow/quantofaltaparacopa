@@ -1,6 +1,7 @@
 import { useMemo } from "react";
 import ShareBtn from "./ShareBtn";
 import { calcTimeToWorldCup } from "@/utils/calcTimeToWorldCup";
+import Image from "next/image";
 
 const CounterHero = () => {
 
@@ -10,10 +11,13 @@ const CounterHero = () => {
         <div className="container">
             <ShareBtn days={daysToWorldCup} />
             <div className="main">
-                <img
+                <Image
                     className="trophy"
-                    src="https://png.pngtree.com/png-vector/20221117/ourmid/pngtree-fifa-world-cup-trophy-clipart-illustration-png-image_6455581.png"
-                    alt="trophy"
+                    src="/trophy.webp"
+                    alt="Trophy"
+                    width={240}
+                    height={240}
+                    priority
                 />
                 <h1>Faltam {daysToWorldCup} dias para a Copa!</h1>
                 <p>

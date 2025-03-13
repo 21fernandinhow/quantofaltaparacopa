@@ -51,7 +51,6 @@ body {
 }
 
 .trophy {
-  max-height: 28vh;
   filter: invert(100%);
 }
 
