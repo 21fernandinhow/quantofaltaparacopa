@@ -5,7 +5,7 @@ interface ShareBtnProps {
 }
 
 const ShareBtn = ({days}: ShareBtnProps) => {
-    const message = `Faltam ${days} dias para a Copa do Mundo! Acompanhe a contagem regressiva em: https://quantofaltaparacopa.netlify.app/`
+    const message = `Faltam ${days} dias para a Copa do Mundo! Acompanhe a contagem regressiva em: https://quantofaltaparacopa.com.br/`
 
     return (
         <a 
