@@ -1,8 +1,12 @@
+import Link from "next/link"
+
 const Footer = () => {
 
     return (
         <footer className="footer">
-            <a href="https://fernandocarvalhodev.com">Desenvolvido por Fernando Carvalho - Rumo ao Hexa! </a>
+            <Link href="https://fernandocarvalhodev.com" target="_blank" rel="noopener noreferrer" >
+                Desenvolvido por Fernando Carvalho - Rumo ao Hexa!
+            </Link>
         </footer>
     )
 }
