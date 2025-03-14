@@ -1,14 +1,15 @@
 import ShareBtn from "./ShareBtn";
-import { calcTimeToWorldCup } from "@/utils/calcTimeToWorldCup";
 import Image from "next/image";
 
-const CounterHero = () => {
+interface CounterHeroProps {
+    days: number | string
+}
 
-    const daysToWorldCup = calcTimeToWorldCup();
+const CounterHero = ({days}:CounterHeroProps) => {
 
     return (
         <div className="container">
-            <ShareBtn days={daysToWorldCup} />
+            <ShareBtn days={days} />
             <div className="main">
                 <Image
                     className="trophy"
@@ -18,7 +19,7 @@ const CounterHero = () => {
                     height={240}
                     priority
                 />
-                <h1>Faltam {daysToWorldCup} dias para a Copa!</h1>
+                <h1>Faltam {days} dias para a Copa!</h1>
                 <p>
                     A próxima Copa do Mundo será disputada por 48 times e será sediada nos EUA, Canadá e
                     México, com início em 11 de junho de 2026.
