@@ -1,11 +1,10 @@
-import { useMemo } from "react";
 import ShareBtn from "./ShareBtn";
 import { calcTimeToWorldCup } from "@/utils/calcTimeToWorldCup";
 import Image from "next/image";
 
 const CounterHero = () => {
 
-    const daysToWorldCup = useMemo(() => calcTimeToWorldCup(), []);
+    const daysToWorldCup = calcTimeToWorldCup();
 
     return (
         <div className="container">
