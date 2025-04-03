@@ -5,7 +5,7 @@ import { Metadata } from "next";
 export const dynamic = "force-dynamic";
 
 const getDaysToWorldCup = () => {
-  return Math.ceil((new Date(2026, 5, 11).getTime() - new Date().getTime()) / (1000 * 60 * 60 * 24));
+  return Math.ceil((new Date(Date.UTC(2026, 5, 11)).getTime() - new Date().getTime()) / (1000 * 60 * 60 * 24));
 }
 
 export const generateMetadata = async (): Promise<Metadata> => {
