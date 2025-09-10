@@ -24,14 +24,14 @@ const CounterHero = ({days}:CounterHeroProps) => {
                     A próxima Copa do Mundo será disputada por 48 times e será sediada nos EUA, Canadá e
                     México, com início em 11 de junho de 2026.
                 </p>
-                <a
+                {/* <a
                     className="btn"
                     href="https://ge.globo.com/futebol/futebol-internacional/noticia/2023/03/14/copa-do-mundo-de-2026-tera-quatro-grupos-com-12-times-cada-e-atingira-total-de-104-jogos.ghtml"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
                     Saiba Mais
-                </a>
+                </a> */}
             </div>
         </div>
     );

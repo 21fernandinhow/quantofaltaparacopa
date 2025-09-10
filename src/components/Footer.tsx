@@ -4,7 +4,7 @@ const Footer = () => {
 
     return (
         <footer className="footer">
-            <Link href="https://fernandocarvalhodev.com" target="_blank" rel="noopener noreferrer" >
+            <Link href="https://tudoaqui.click/founder" target="_blank" rel="noopener noreferrer" >
                 Desenvolvido por Fernando Carvalho - Rumo ao Hexa!
             </Link>
         </footer>
