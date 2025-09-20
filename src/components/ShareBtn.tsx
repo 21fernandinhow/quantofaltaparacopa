@@ -1,7 +1,6 @@
 "use client"
 
 import { useState } from "react";
-import Link from "next/link";
 import { HiShare } from "react-icons/hi";
 import { FaWhatsapp, FaXTwitter } from "react-icons/fa6";
 
@@ -20,6 +19,7 @@ const ShareBtn = ({ days }: ShareBtnProps) => {
             <button
                 id="shareBtn"
                 onClick={() => setOpen((prev) => !prev)}
+                aria-label="Compartilhar esta página"
             >
                 <HiShare />
             </button>
@@ -27,21 +27,23 @@ const ShareBtn = ({ days }: ShareBtnProps) => {
             <div className="share-container">
                 {open && (
                     <div className="share-menu">
-                        <Link
+                        <a
                             href={`https://wa.me/?text=${encodeURIComponent(shareMessage)}`}
                             target="_blank"
                             rel="noopener noreferrer"
+                            aria-label="Compartilhar no Whatsapp"
                         >
                             <FaWhatsapp />
-                        </Link>
+                        </a>
 
-                        <Link
+                        <a
                             href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(shareMessage)}`}
                             target="_blank"
                             rel="noopener noreferrer"
+                            aria-label="Compartilhar no X"
                         >
                             <FaXTwitter />
-                        </Link>
+                        </a>
                     </div>
                 )}
             </div>
