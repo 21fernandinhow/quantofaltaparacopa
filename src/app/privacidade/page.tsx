@@ -67,7 +67,7 @@ const PrivacyPolitics = () => (
 
                     <h2>Alterações nesta política</h2>
                     <p>
-                        Podemos atualizar esta política. Quando houver mudanças relevantes, mostraremos a nova data de "Última atualização"
+                        Podemos atualizar esta política. Quando houver mudanças relevantes, mostraremos a nova data de última atualização
                         no topo desta página.
                     </p>
 
