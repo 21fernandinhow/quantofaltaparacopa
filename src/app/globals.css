@@ -17,8 +17,8 @@ body {
 
 /*World Cup Official Colors: https://www.schemecolor.com/united-2026-fifa-world-cup-bid-logo-colors.php */
 
-.container {
-  min-height: 88vh;
+#counter-hero {
+  min-height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -78,8 +78,15 @@ body {
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(-10px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .main {
@@ -117,27 +124,33 @@ body {
 }
 
 .footer {
-  min-height: 12vh;
+  min-height: 10vh;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 8px;
   background-color: #D1D4D1;
   font-weight: bold;
   box-shadow: -10px 0px 10px rgba(0, 0, 0, 0.4);
-  padding: 0px 10px;
+  padding: 15px;
+  flex-wrap: wrap;
 }
 
 .footer a {
   color: #000;
   text-decoration: none;
   cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .footer a:hover {
   text-decoration: underline;
-  font-size: 18px;
-  transition: 0.4s;
+}
+
+#privacy-page {
+  padding: 0.5rem 2rem;
+  background-color: #D1D4D1;
 }
 
 @keyframes AnimationFont {
@@ -170,6 +183,18 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    gap: 4px;
+    text-align: center;
+  }
+
+  .hide-mobile {
+    display: none !important;
+  }
 }
 
 @-webkit-keyframes AnimationName {

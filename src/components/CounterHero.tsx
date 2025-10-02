@@ -8,7 +8,7 @@ interface CounterHeroProps {
 const CounterHero = ({days}:CounterHeroProps) => {
 
     return (
-        <div className="container">
+        <div id="counter-hero">
             <ShareBtn days={days} />
             <div className="main">
                 <Image
