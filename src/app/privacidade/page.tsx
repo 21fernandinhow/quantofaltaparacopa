@@ -1,9 +1,9 @@
 const PrivacyPolitics = () => {
-    const lastUpdated = '2 de outubro de 2025'
+    const lastUpdated = "2 de outubro de 2025"
 
     return (
         <>
-            <main id='privacy-page'>
+            <main id="privacy-page">
                 <div>
                     <h1>Política de Privacidade</h1>
                     <p>Última atualização: {lastUpdated}</p>
