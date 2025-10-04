@@ -10,7 +10,7 @@ const Footer = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        Created by Fernando Carvalho
+        Desenvolvido por Fernando Carvalho
       </Link>
       <span className="hide-mobile"> | </span>
       <Link href="/privacidade">
