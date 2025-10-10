@@ -1,3 +1,9 @@
+import { Metadata } from "next";
+
+export const generateMetadata = (): Metadata => ({
+    title: "Política de Privacidade | Quanto Falta Para a Copa",
+});
+
 const PrivacyPolitics = () => (
     <>
         <main id="privacy-page">
