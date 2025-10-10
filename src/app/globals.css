@@ -24,14 +24,21 @@ body {
   align-items: center;
 }
 
+#backBtn {
+  left: 1rem;
+}
+
 #shareBtn {
+  right: 1rem;
+}
+
+#shareBtn, #backBtn {
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   position: fixed;
   top: 1rem;
-  right: 1rem;
   font-size: 1.3rem;
   padding: 8px;
   color: #D1D4D1;
@@ -40,7 +47,7 @@ body {
   border-radius: 100%;
 }
 
-#shareBtn:hover {
+#backBtn:hover, #shareBtn:hover {
   scale: 1.1;
   transition: 0.3s;
 }
