@@ -70,6 +70,7 @@ const NewsPage = async () => {
     return (
         <>
             <BackBtn />
+            
             <main className="news-container">
                 <h1 className="news-title">📰 Notícias da Copa 2026</h1>
 
@@ -85,6 +86,7 @@ const NewsPage = async () => {
                     ))}
                 </div>
             </main>
+
             <Footer />
 
             <Script
