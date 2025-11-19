@@ -12,7 +12,7 @@ export const NewsCard = ({ title, link, pubDate, snippet }: NewsCardProps) => {
                 {title}
             </a>
 
-            {snippet && <p className="news-card-snippet">{snippet}</p>}
+            {snippet && snippet != 'null' && <p className="news-card-snippet">{snippet}</p>}
 
             {pubDate && (
                 <div className="news-card-date">
