@@ -3,13 +3,13 @@
     margin: 1.5rem auto;
     padding: 1.5rem;
     min-height: 90vh;
+    color: #D1D4D1;
 }
 
 .news-title {
     text-align: center;
     font-size: 1.8rem;
     margin-bottom: 1.5rem;
-    color: #D1D4D1;
 }
 
 .news-grid {

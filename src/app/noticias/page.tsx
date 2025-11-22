@@ -70,20 +70,23 @@ const NewsPage = async () => {
     return (
         <>
             <BackBtn />
-            
+
             <main className="news-container">
                 <h1 className="news-title">📰 Notícias da Copa 2026</h1>
 
                 <div className="news-grid">
-                    {articles.map((a, i) => (
-                        <NewsCard
-                            key={i}
-                            title={a.title}
-                            link={a.link}
-                            pubDate={a.pubDate}
-                            snippet={a.contentSnippet}
-                        />
-                    ))}
+                    {articles && articles.length > 0 ?
+                        articles.map((a, i) => (
+                            <NewsCard
+                                key={i}
+                                title={a.title}
+                                link={a.link}
+                                pubDate={a.pubDate}
+                                snippet={a.contentSnippet}
+                            />
+                        ))
+                        : <h2>Não há noticias no momento</h2>
+                    }
                 </div>
             </main>
 
