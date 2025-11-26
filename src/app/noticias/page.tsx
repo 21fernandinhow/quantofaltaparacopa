@@ -2,7 +2,6 @@ import Parser from "rss-parser";
 import { NewsCard } from "@/components/NewsCard";
 import Footer from "@/components/Footer";
 import { BackBtn } from "@/components/BackBtn";
-import "./index.css";
 import { Metadata } from "next";
 import Script from "next/script";
 

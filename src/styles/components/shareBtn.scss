@@ -1,0 +1,61 @@
+#backBtn {
+    left: 1rem;
+}
+
+#shareBtn {
+    right: 1rem;
+}
+
+#shareBtn,
+#backBtn {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 1rem;
+    font-size: 1.3rem;
+    padding: 8px;
+    color: #D1D4D1;
+    background: none;
+    border: 2px solid #c7c7c7;
+    border-radius: 100%;
+}
+
+#backBtn:hover,
+#shareBtn:hover {
+    scale: 1.1;
+    transition: 0.3s;
+}
+
+.share-container {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+}
+
+.share-menu {
+    position: absolute;
+    top: 3.2rem;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    animation: fadeIn 0.3s ease;
+}
+
+.share-menu a {
+    font-size: 1.3rem;
+    color: #D1D4D1;
+    transition: transform 0.2s, color 0.2s;
+    border: 2px solid #c7c7c7;
+    border-radius: 100%;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.share-menu a:hover {
+    transform: scale(1.2);
+}
