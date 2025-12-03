@@ -1,8 +1,13 @@
 import Link from "next/link"
 
-const Footer = () => {
+interface FooterProps{
+  alternative?: boolean
+}
+
+const Footer = ({alternative}:FooterProps) => {
   return (
-    <footer className="footer">
+    <footer className={`footer ${alternative ? 'footer-alternative' : ''}`}>
+      <hr />
       <span>Rumo ao Hexa </span>
       <span className="hide-mobile"> | </span>
       <Link

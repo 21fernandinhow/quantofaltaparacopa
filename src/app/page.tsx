@@ -54,7 +54,7 @@ const Home = () => {
   return (
     <>
       <CounterHero days={daysToWorldCup} />
-      <Footer />
+      <Footer alternative />
 
       <Script
         id="ld-json"
