@@ -11,7 +11,7 @@ const CounterHero = ({ days }: CounterHeroProps) => {
     return (
         <div id="counter-hero">
             <ShareBtn days={days} />
-            <div className="main">
+            <div className="hero-container">
                 <Image
                     className="trophy"
                     src="/trophy.webp"
@@ -25,7 +25,7 @@ const CounterHero = ({ days }: CounterHeroProps) => {
                     A próxima Copa do Mundo será disputada por 48 times e será sediada nos EUA, Canadá e
                     México, com início em 11 de junho de 2026.
                 </p>
-                <Link href={"/noticias"} className="btn">Saiba mais</Link>
+                <Link href={"/noticias"} className="hero-cta-btn">Saiba mais</Link>
             </div>
         </div>
     );

@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        gap: 4px;
+        text-align: center;
+    }
+
+    .hide-mobile {
+        display: none !important;
+    }
+}

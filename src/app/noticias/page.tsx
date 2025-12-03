@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import { BackBtn } from "@/components/BackBtn";
 import { Metadata } from "next";
 import Script from "next/script";
+import './index.css'
 
 interface Article {
     title: string;

@@ -1,0 +1,23 @@
+.footer {
+    min-height: 10vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-weight: bold;
+    box-shadow: -10px 0px 10px var(--shadow-color);
+    padding: 15px;
+    flex-wrap: wrap;
+
+    a {
+        color: var(--text-color);
+        text-decoration: none;
+        cursor: pointer;
+        transition: all 0.3s ease;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
