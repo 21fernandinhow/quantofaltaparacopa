@@ -1,9 +1,7 @@
 import Parser from "rss-parser";
 import { NewsCard } from "@/components/NewsCard";
-import Footer from "@/components/Footer";
 import { BackBtn } from "@/components/BackBtn";
 import { Metadata } from "next";
-import Script from "next/script";
 
 interface Article {
     title: string;
