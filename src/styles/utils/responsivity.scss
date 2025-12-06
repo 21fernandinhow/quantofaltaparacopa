@@ -1,5 +1,11 @@
 @media (max-width: 768px) {
-    .footer {
+    .news-grid {
+        .news-card {
+            flex: 1 1 100% !important;
+        }
+    }
+
+    footer {
         flex-direction: column;
         gap: 4px;
         text-align: center;

@@ -1,3 +1,4 @@
+import NewsSection from "@/components/NewsSection";
 import { Metadata } from "next";
 
 export const generateMetadata = (): Metadata => ({
@@ -6,7 +7,11 @@ export const generateMetadata = (): Metadata => ({
 
 const WorldCupCentral = () => (
     <>
-        <h1>Em breve</h1>
+        <section className="container" id="welcome-section">
+            <h2>Central da Copa</h2>
+            <p>Tudo o que você precisa saber sobre a Copa do Mundo 2026.</p>
+        </section>
+        <NewsSection />
     </>
 )
 

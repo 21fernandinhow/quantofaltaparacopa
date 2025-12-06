@@ -1,4 +1,5 @@
 import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 import "@/styles/index.scss";
 
 export default function ContentLayout({
@@ -8,6 +9,7 @@ export default function ContentLayout({
 }>) {
     return (
         <>
+            <Header />
             {children}
             <Footer />
         </>

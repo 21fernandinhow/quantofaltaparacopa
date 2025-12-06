@@ -4,7 +4,6 @@ import Footer from "@/components/Footer";
 import { BackBtn } from "@/components/BackBtn";
 import { Metadata } from "next";
 import Script from "next/script";
-import './index.css'
 
 interface Article {
     title: string;
@@ -64,7 +63,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 
 export const revalidate = 3600;
 
-const NewsPage = async () => {
+const NewsSection = async () => {
     const articles = await getArticles();
 
     return (
@@ -89,36 +88,8 @@ const NewsPage = async () => {
                     }
                 </div>
             </main>
-
-            <Footer />
-
-            <Script
-                id="ld-json-news"
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{
-                    __html: JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "NewsArticle",
-                        "mainEntityOfPage": {
-                            "@type": "WebPage",
-                            "@id": "https://quantofaltaparacopa.com.br/news",
-                        },
-                        "headline": "Últimas notícias da Copa do Mundo 2026",
-                        "description": articles.map(a => a.title).join(". "),
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Quanto Falta Para a Copa",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://quantofaltaparacopa.com.br/trophy.webp",
-                            },
-                        },
-                        "datePublished": articles[0]?.pubDate || new Date().toISOString(),
-                    }),
-                }}
-            />
         </>
     );
 };
 
-export default NewsPage;
+export default NewsSection;
