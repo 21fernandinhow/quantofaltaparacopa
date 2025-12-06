@@ -5,7 +5,7 @@ import Script from "next/script";
 
 export const dynamic = "force-dynamic";
 
-const getDaysToWorldCup = () => {
+export const getDaysToWorldCup = () => {
   const today = new Date();
   const target = new Date(2026, 5, 11);
   

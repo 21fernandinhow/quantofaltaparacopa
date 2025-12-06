@@ -7,9 +7,9 @@
     background: linear-gradient(270deg, var(--wc-primary-color), var(--wc-secondary-color), var(--wc-terciary-color));
     background-size: 600% 600%;
 
-    -webkit-animation: AnimationName 20s ease infinite;
-    -moz-animation: AnimationName 20s ease infinite;
-    animation: AnimationName 20s ease infinite;
+    -webkit-animation: GradientBackgroundAnimation 20s ease infinite;
+    -moz-animation: GradientBackgroundAnimation 20s ease infinite;
+    animation: GradientBackgroundAnimation 20s ease infinite;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

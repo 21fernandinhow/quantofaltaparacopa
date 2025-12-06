@@ -10,6 +10,7 @@ const WorldCupCentral = () => (
         <section className="container" id="welcome-section">
             <h2>Central da Copa</h2>
             <p>Tudo o que você precisa saber sobre a Copa do Mundo 2026.</p>
+            <hr className="animated-gradient-line" />
         </section>
         <NewsSection />
     </>

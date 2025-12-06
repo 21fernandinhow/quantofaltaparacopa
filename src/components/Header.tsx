@@ -1,6 +1,9 @@
+import { getDaysToWorldCup } from "@/app/page";
 import Image from "next/image"
 
 const Header = () => {
+    const daysToWorldCup = getDaysToWorldCup();
+
     return (
         <header>
             <div className="header-title">
@@ -12,7 +15,7 @@ const Header = () => {
                     height={60}
                     priority
                 />
-                <h1>Quanto falta para copa</h1>
+                <h1 className="gradient-text">Faltam {daysToWorldCup} dias para a copa</h1>
             </div>
             <hr />
         </header>
