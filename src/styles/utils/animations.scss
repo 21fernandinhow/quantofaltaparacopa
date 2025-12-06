@@ -1,0 +1,75 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes AnimationFont {
+    0% {
+        color: var(--wc-primary-color);
+    }
+
+    25% {
+        color: var(--wc-secondary-color);
+    }
+
+    50% {
+        color: var(--wc-terciary-color);
+    }
+
+    75% {
+        color: var(--wc-secondary-color);
+    }
+
+    100% {
+        color: var(--wc-primary-color);
+    }
+}
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}

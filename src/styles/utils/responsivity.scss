@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+    .news-grid {
+        .news-card {
+            flex: 1 1 100% !important;
+        }
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 4px;
+        text-align: center;
+    }
+
+    .hide-mobile {
+        display: none !important;
+    }
+}
