@@ -68,8 +68,8 @@ const NewsSection = async () => {
         <>
             <BackBtn />
 
-            <main className="news-container">
-                <h1 className="news-title">📰 Notícias da Copa 2026</h1>
+            <section id="news-container" className="container">
+                <h3 className="news-title">📰 Notícias da Copa 2026</h3>
 
                 <div className="news-grid">
                     {articles && articles.length > 0 ?
@@ -85,7 +85,7 @@ const NewsSection = async () => {
                         : <h2>Não há noticias no momento</h2>
                     }
                 </div>
-            </main>
+            </section>
         </>
     );
 };

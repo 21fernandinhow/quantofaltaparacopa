@@ -1,0 +1,37 @@
+#world-cup-guide-menu {
+
+    h3 {
+        text-align: center;
+        font-size: 1.8rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .guide-options-list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+
+        .guide-option {
+            background: var(--bg-color);
+            padding: 1rem;
+            border-radius: 10px;
+            max-width: 14rem;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 4px 10px var(--shadow-color);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            color: var(--text-color);
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+
+            &:hover {
+                transform: translateY(-3px);
+                box-shadow: 0 6px 15px var(--shadow-color);
+            }
+        }
+    }
+}
