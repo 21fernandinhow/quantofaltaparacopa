@@ -59,8 +59,6 @@ export const generateMetadata = async (): Promise<Metadata> => {
     };
 };
 
-export const revalidate = 3600;
-
 const NewsSection = async () => {
     const articles = await getArticles();
 
