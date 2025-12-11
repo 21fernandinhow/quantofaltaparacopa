@@ -32,20 +32,4 @@
     .trophy {
         filter: invert(100%);
     }
-
-    .hero-cta-btn {
-        text-decoration: none;
-        color: var(--text-color);
-        font-weight: bold;
-        background-color: var(--bg-color);
-        border-radius: 20px;
-        padding: 10px 24px;
-
-        &:hover {
-            padding: 10px 48px;
-            transition: 0.4s;
-            box-shadow: 0px 2px 2px var(--shadow-color);
-        }
-    }
-    
 }

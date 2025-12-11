@@ -25,7 +25,7 @@ const CounterHero = ({ days }: CounterHeroProps) => {
                     A próxima Copa do Mundo será disputada por 48 times e será sediada nos EUA, Canadá e
                     México, com início em 11 de junho de 2026.
                 </p>
-                <Link href={"/central-da-copa"} className="hero-cta-btn">Saiba mais</Link>
+                <Link href={"/central-da-copa"} className="btn">Saiba mais</Link>
             </div>
         </div>
     );

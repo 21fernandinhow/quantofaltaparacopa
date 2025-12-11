@@ -1,6 +1,5 @@
 import Parser from "rss-parser";
 import { NewsCard } from "@/components/NewsCard";
-import { BackBtn } from "@/components/BackBtn";
 import { Metadata } from "next";
 
 interface Article {
@@ -66,8 +65,6 @@ const NewsSection = async () => {
 
     return (
         <>
-            <BackBtn />
-
             <section id="news-container" className="container">
                 <h3 className="news-title">📰 Notícias da Copa 2026</h3>
 
