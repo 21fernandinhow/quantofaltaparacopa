@@ -1,6 +1,5 @@
 import Parser from "rss-parser";
 import { NewsCard } from "@/components/NewsCard";
-import { BackBtn } from "@/components/BackBtn";
 import { Metadata } from "next";
 
 interface Article {
@@ -11,13 +10,23 @@ interface Article {
 };
 
 const getArticles = async (): Promise<Article[]> => {
+    const feedUrl = "https://www.espn.com.br/espn/rss/copa-mundo.xml";
+
+    const res = await fetch(feedUrl, {
+        next: { revalidate: 3600 }
+    });
+
+    const xml = await res.text();
+
     const parser = new Parser();
-    const feed = await parser.parseURL("https://www.espn.com.br/espn/rss/copa-mundo.xml");
+    const feed = await parser.parseString(xml);
 
     const items = feed.items || [];
 
     return items
-        .filter((item) => /copa|mundial|fifa|seleção|world cup/i.test(item.title || ""))
+        .filter((item) =>
+            /copa|mundial|fifa|seleção|world cup/i.test(item.title || "")
+        )
         .slice(0, 12)
         .map((item) => ({
             title: item.title || "",
@@ -64,10 +73,8 @@ const NewsSection = async () => {
 
     return (
         <>
-            <BackBtn />
-
-            <main className="news-container">
-                <h1 className="news-title">📰 Notícias da Copa 2026</h1>
+            <section id="news-container" className="container">
+                <h3 className="news-title">📰 Notícias da Copa 2026</h3>
 
                 <div className="news-grid">
                     {articles && articles.length > 0 ?
@@ -83,7 +90,7 @@ const NewsSection = async () => {
                         : <h2>Não há noticias no momento</h2>
                     }
                 </div>
-            </main>
+            </section>
         </>
     );
 };

@@ -1,0 +1,14 @@
+.btn {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: bold;
+    background-color: var(--bg-color);
+    border-radius: 20px;
+    padding: 10px 24px;
+    box-shadow: 2px 2px 8px var(--shadow-color);
+
+    &:hover {
+        padding: 10px 48px;
+        transition: 0.4s;
+    }
+}

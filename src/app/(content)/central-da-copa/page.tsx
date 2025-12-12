@@ -1,4 +1,5 @@
 import NewsSection from "@/components/NewsSection";
+import WorldCupGuideMenu from "@/components/WorldCupGuideMenu";
 import { Metadata } from "next";
 
 export const generateMetadata = (): Metadata => ({
@@ -12,6 +13,7 @@ const WorldCupCentral = () => (
             <p>Tudo o que você precisa saber sobre a Copa do Mundo 2026.</p>
             <hr className="animated-gradient-line" />
         </section>
+        <WorldCupGuideMenu />
         <NewsSection />
     </>
 )

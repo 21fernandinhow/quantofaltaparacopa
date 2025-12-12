@@ -1,5 +1,7 @@
 @media (max-width: 768px) {
     .news-grid {
+        flex-direction: column;
+        align-items: center;
         .news-card {
             flex: 1 1 100% !important;
         }

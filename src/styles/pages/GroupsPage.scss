@@ -1,0 +1,23 @@
+#groups-page {
+    .groups-page-header {
+        text-align: center;
+    }
+
+    .groups-list {
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin: 3rem 0rem;
+
+        .card {
+            h4 {
+                margin-top: 0rem;
+            }
+
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

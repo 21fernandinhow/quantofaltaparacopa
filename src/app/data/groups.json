@@ -1,0 +1,77 @@
+{
+  "groups": [
+    {
+      "name": "Grupo A",
+      "teams": [
+        "🇲🇽 México",
+        "🇰🇷 Coreia do Sul",
+        "🇿🇦 África do Sul",
+        "🏳️ Repescagem UEFA D"
+      ]
+    },
+    {
+      "name": "Grupo B",
+      "teams": ["🇨🇦 Canadá", "🇨🇭 Suíça", "🇶🇦 Catar", "🏳️ Repescagem UEFA A"]
+    },
+    {
+      "name": "Grupo C",
+      "teams": ["🇧🇷 Brasil", "🇲🇦 Marrocos", "🏴 Escócia", "🇭🇹 Haiti"]
+    },
+    {
+      "name": "Grupo D",
+      "teams": [
+        "🇺🇸 Estados Unidos",
+        "🇦🇺 Austrália",
+        "🇵🇾 Paraguai",
+        "🏳️ Repescagem UEFA C"
+      ]
+    },
+    {
+      "name": "Grupo E",
+      "teams": ["🇩🇪 Alemanha", "🇪🇨 Equador", "🇨🇮 Costa do Marfim", "🇨🇼 Curaçao"]
+    },
+    {
+      "name": "Grupo F",
+      "teams": ["🇳🇱 Holanda", "🇯🇵 Japão", "🇹🇳 Tunísia", "🏳️ Repescagem UEFA B"]
+    },
+    {
+      "name": "Grupo G",
+      "teams": ["🇧🇪 Bélgica", "🇮🇷 Irã", "🇪🇬 Egito", "🇳🇿 Nova Zelândia"]
+    },
+    {
+      "name": "Grupo H",
+      "teams": [
+        "🇪🇸 Espanha",
+        "🇺🇾 Uruguai",
+        "🇸🇦 Arábia Saudita",
+        "🇨🇻 Cabo Verde"
+      ]
+    },
+    {
+      "name": "Grupo I",
+      "teams": [
+        "🇫🇷 França",
+        "🇸🇳 Senegal",
+        "🇳🇴 Noruega",
+        "🏳️ Repescagem Intercontinental 2"
+      ]
+    },
+    {
+      "name": "Grupo J",
+      "teams": ["🇦🇷 Argentina", "🇦🇹 Áustria", "🇩🇿 Argélia", "🇯🇴 Jordânia"]
+    },
+    {
+      "name": "Grupo K",
+      "teams": [
+        "🇵🇹 Portugal",
+        "🇨🇴 Colômbia",
+        "🇺🇿 Uzbequistão",
+        "🏳️ Repescagem Intercontinental 1"
+      ]
+    },
+    {
+      "name": "Grupo L",
+      "teams": ["🏴 Inglaterra", "🇭🇷 Croácia", "🇵🇦 Panamá", "🇬🇭 Gana"]
+    }
+  ]
+}
