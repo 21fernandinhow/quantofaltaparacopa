@@ -1,0 +1,59 @@
+{
+  "curiosities": [
+    {
+      "id": 1,
+      "slug": "copa-com-maior-numero-de-jogos",
+      "title": "Esta é a Copa com o maior número de jogos da história",
+      "content": [
+        "A Copa do Mundo de 2026 será a maior já realizada em termos de partidas: serão 104 jogos ao longo de pouco mais de um mês. Este aumento expressivo está diretamente ligado à expansão do torneio, que deixa o tradicional formato com 32 seleções para receber agora 48 equipes.",
+        "A FIFA optou por ampliar a competição com o objetivo de garantir maior representatividade global. Com mais vagas para confederações, o Mundial passa a incluir seleções que historicamente tinham dificuldade de classificação, aumentando a diversidade e a competitividade geral do torneio.",
+        "Para acomodar esse novo volume de partidas, o formato precisou ser ajustado. Em vez de 8 grupos de 4, agora teremos 12 grupos de 4 seleções — e a fase eliminatória também mudou para contemplar o número maior de classificados. Isso torna a edição de 2026 uma das mais complexas e intensas já planejadas.",
+        "O resultado é um Mundial que, pela primeira vez, ultrapassa a marca de 100 jogos. Para torcedores, isso significa mais conteúdo, mais histórias e mais oportunidades de acompanhar suas seleções no maior palco do futebol mundial."
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "primeira-copa-em-tres-paises",
+      "title": "Você sabia que esta será a primeira Copa disputada em três países?",
+      "content": [
+        "A Copa do Mundo de 2026 ficará marcada na história como a primeira a ser realizada em três países simultaneamente: Estados Unidos, Canadá e México. Essa decisão histórica foi motivada pela infraestrutura robusta e pela capacidade logística dos três anfitriões, que podem receber grandes fluxos de torcedores e suportar um calendário mais extenso de partidas.",
+        "Embora já tenha havido Copas com dois anfitriões — como a de 2002, no Japão e Coreia do Sul — nenhum Mundial havia sido planejado para três nações. Com isso, a edição de 2026 se espalha por todo o continente norte-americano, criando um ambiente culturalmente diverso e oferecendo experiências completamente diferentes dependendo da cidade sede.",
+        "A escolha também está alinhada ao aumento do número de jogos. Com 104 partidas previstas, distribuir os confrontos entre três países reduz a sobrecarga de infraestrutura e amplia a capacidade de acolher públicos gigantescos, especialmente nos estádios norte-americanos que figuram entre os maiores do mundo.",
+        "A união entre EUA, Canadá e México representa um marco simbólico, reforçando a proposta da FIFA de globalizar ainda mais o futebol e aproximar diferentes culturas dentro de um único evento."
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "viagens-mais-longas-da-historia",
+      "title": "Esta será a Copa com as viagens mais longas para seleções e torcedores",
+      "content": [
+        "Com jogos espalhados por três países de dimensões continentais, a Copa de 2026 será a edição mais desafiadora da história em termos de deslocamento. As distâncias entre algumas sedes podem superar 3.000 km, criando a necessidade de uma logística precisa tanto para delegações quanto para torcedores.",
+        "Equipes que jogarem, por exemplo, no Canadá e depois no sul dos Estados Unidos podem enfrentar viagens equivalentes a cruzar boa parte da Europa. Isso exige planejamento sobre recuperação física, adaptação climática e até mesmo mudanças no planejamento tático para minimizar desgaste.",
+        "Para o público, essa distribuição ampla também gera um impacto relevante. Quem deseja acompanhar muitos jogos precisará levar em consideração tempo de deslocamento, disponibilidade de voos e até diferenças culturais importantes entre as regiões — já que cada país anfitrião tem identidade e dinâmica próprias.",
+        "Mesmo com os desafios, essa característica torna o Mundial de 2026 uma experiência única, criando um evento que combina turismo, esportes e diversidade geográfica em um nível nunca antes visto."
+      ]
+    },
+    {
+      "id": 4,
+      "slug": "maior-numero-de-sedes",
+      "title": "É também a Copa com o maior número de cidades-sede",
+      "content": [
+        "A Copa do Mundo de 2026 contará com 16 cidades-sede, o maior número já registrado na história do torneio. A distribuição ficou assim: 11 sedes nos Estados Unidos, 3 no México e 2 no Canadá. Essa amplitude torna o evento mais descentralizado e abre espaço para que mais regiões participem diretamente da festa do futebol.",
+        "Cada uma das sedes apresenta características próprias — desde gigantescos estádios de futebol americano nos EUA até arenas tradicionais no México e instalações modernas no Canadá. Essa diversidade permitirá que a competição tenha atmosferas bem distintas de uma cidade para outra.",
+        "O aumento no número de sedes também impacta na logística e na estratégia das seleções. Com mais cidades envolvidas, as delegações precisarão escolher cuidadosamente seus centros de treinamento, pontos de concentração e rotas de deslocamento.",
+        "Para torcedores, a variedade é um atrativo extra: será possível vivenciar culturas diferentes sem deixar de acompanhar o Mundial, tornando a edição de 2026 uma das mais ricas em experiências paralelas ao esporte."
+      ]
+    },
+    {
+      "id": 5,
+      "slug": "recorde-de-publico-aguardado",
+      "title": "Tudo indica que será a Copa com o maior público total já registrado",
+      "content": [
+        "Com a combinação de 104 jogos, estádios muito maiores e três países envolvidos, especialistas projetam que a Copa do Mundo de 2026 deve quebrar todos os recordes de público total na história dos Mundiais. Os EUA, em particular, possuem algumas das maiores arenas do planeta, muitas com capacidade acima de 70 mil pessoas.",
+        "A ampla oferta de ingressos deve impulsionar não apenas a presença local, mas também o turismo internacional. A América do Norte é uma região com infraestrutura robusta para receber visitantes, e isso deve facilitar a chegada de torcedores de todas as partes do mundo.",
+        "Além disso, o aumento no número de partidas naturalmente amplia o potencial de venda de ingressos. Mais jogos significam mais oportunidades para que os torcedores vivam a atmosfera da Copa, mesmo sem acompanhar sua seleção diretamente.",
+        "Se as projeções se confirmarem, o Mundial de 2026 pode estabelecer um novo patamar para eventos esportivos globais, reafirmando o futebol como o esporte mais popular do planeta — agora em escala ainda maior."
+      ]
+    }
+  ]
+}

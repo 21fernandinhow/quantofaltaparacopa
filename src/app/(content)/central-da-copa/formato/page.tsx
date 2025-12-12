@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { BackToCentral } from "@/components/BackToCentral";
 
 const WorldCupFormat = () => (
     <>
@@ -116,9 +116,8 @@ const WorldCupFormat = () => (
                 estatísticas e curiosidades.
             </p>
         </article>
-        <div className="container">
-            <Link href={"/central-da-copa"} className="btn">Voltar a Central</Link>
-        </div>
+
+        <BackToCentral />
     </>
 );
 

@@ -10,13 +10,23 @@ interface Article {
 };
 
 const getArticles = async (): Promise<Article[]> => {
+    const feedUrl = "https://www.espn.com.br/espn/rss/copa-mundo.xml";
+
+    const res = await fetch(feedUrl, {
+        next: { revalidate: 3600 }
+    });
+
+    const xml = await res.text();
+
     const parser = new Parser();
-    const feed = await parser.parseURL("https://www.espn.com.br/espn/rss/copa-mundo.xml");
+    const feed = await parser.parseString(xml);
 
     const items = feed.items || [];
 
     return items
-        .filter((item) => /copa|mundial|fifa|seleção|world cup/i.test(item.title || ""))
+        .filter((item) =>
+            /copa|mundial|fifa|seleção|world cup/i.test(item.title || "")
+        )
         .slice(0, 12)
         .map((item) => ({
             title: item.title || "",
@@ -57,8 +67,6 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
     };
 };
-
-export const revalidate = 3600;
 
 const NewsSection = async () => {
     const articles = await getArticles();
