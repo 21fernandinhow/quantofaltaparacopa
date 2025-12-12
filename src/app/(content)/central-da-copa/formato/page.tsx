@@ -1,4 +1,37 @@
 import { BackToCentral } from "@/components/BackToCentral";
+import { Metadata } from "next";
+import Script from "next/script";
+
+export const generateMetadata = (): Metadata => ({
+    title: "Formato da Copa do Mundo 2026 | Central da Copa",
+    description:
+        "Veja como funciona o novo formato da Copa do Mundo 2026: 48 seleções, 12 grupos, playoffs de 32 e todas as mudanças em relação às edições anteriores.",
+    openGraph: {
+        title: "Formato da Copa do Mundo 2026",
+        description:
+            "Entenda o novo formato da Copa 2026: mais seleções, mais jogos e a nova etapa de playoffs antes das oitavas.",
+        url: "https://quantofaltaparacopa.com.br/central-da-copa/formato",
+        type: "article",
+        images: [
+            {
+                url: "https://quantofaltaparacopa.com.br/trophy.webp",
+                width: 1200,
+                height: 630,
+                alt: "Copa do Mundo 2026",
+            },
+        ],
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Formato da Copa do Mundo 2026",
+        description:
+            "Entenda todas as mudanças do formato da Copa 2026: 48 seleções, 12 grupos e playoffs de 32.",
+        images: ["https://quantofaltaparacopa.com.br/trophy.webp"],
+    },
+    alternates: {
+        canonical: "https://quantofaltaparacopa.com.br/central-da-copa/formato",
+    },
+});
 
 const WorldCupFormat = () => (
     <>
@@ -8,96 +41,76 @@ const WorldCupFormat = () => (
             <p>
                 A Copa do Mundo FIFA 2026 inaugura o maior formato da história do
                 torneio, passando de 32 para <strong>48 seleções</strong> e aumentando o
-                número total de partidas de 64 para <strong>104 jogos</strong>. O novo
-                modelo altera diretamente a fase de grupos, os critérios de
-                classificação e a estrutura do mata-mata.
+                número total de partidas de <strong>64 para 104 jogos</strong>. O novo
+                modelo altera diretamente a fase de grupos, critérios de classificação
+                e toda a estrutura do mata-mata.
             </p>
 
             <h2>Estrutura Geral</h2>
             <ul>
                 <li>48 seleções</li>
                 <li>12 grupos com 4 seleções cada</li>
-                <li>2 melhores de cada grupo + 8 melhores terceiros colocados</li>
-                <li>Total de classificados para o mata-mata: 32 seleções</li>
+                <li>Avançam: 24 primeiros e segundos lugares + 8 melhores terceiros</li>
+                <li>Total de classificados ao mata-mata: 32 seleções</li>
             </ul>
 
-            <h2>Fase de Grupos (12 grupos de 4)</h2>
+            <h2>Fase de Grupos</h2>
             <p>
-                A FIFA inicialmente cogitou grupos de 3 equipes, mas voltou atrás por
-                preocupação com manipulação de resultados e perda de competitividade. O
-                modelo final mantém <strong>grupos de 4</strong>, iguais ao formato
-                clássico, porém com volume muito maior.
-            </p>
-
-            <p>
-                Cada seleção joga 3 partidas. Avançam aos playoffs:
+                Após reconsiderar grupos de 3 seleções, a FIFA manteve{" "}
+                <strong>grupos de 4</strong> para preservar competitividade e evitar
+                combinações favorecidas. Cada seleção joga 3 partidas.
             </p>
 
             <ul>
-                <li>os 24 primeiros e segundos colocados</li>
-                <li>os 8 melhores terceiros (critérios: pontos, saldo, gols, fair play)</li>
+                <li>24 líderes e vice-líderes avançam</li>
+                <li>Os 8 melhores terceiros completam o playoff de 32</li>
+                <li>
+                    Apenas 16 seleções são eliminadas na fase de grupos, tornando o
+                    torneio mais aberto
+                </li>
             </ul>
 
+            <h2>Playoffs de 32 Seleções</h2>
             <p>
-                Isso cria uma fase de grupos com alto volume de jogos simultâneos e
-                maior probabilidade de seleções avançarem com pontuações baixas,
-                especialmente porque apenas 16 das 48 seleções serão eliminadas nesta fase.
+                Antes das oitavas, agora existe uma etapa inédita: o{" "}
+                <strong>“Round of 32 Playoffs”</strong>. São partidas únicas de
+                eliminação direta entre 32 seleções.
             </p>
 
-            <h2>Playoffs de 32 (Novo)</h2>
-            <p>
-                O mata-mata começa mais cedo. Antes das oitavas, existe agora um estágio
-                adicional chamado oficialmente de{" "}
-                <strong>“Round of 32 Playoffs”</strong>, equivalente a uma “fase
-                intermediária”.
-            </p>
-
-            <p>Participam 32 seleções em partidas únicas de eliminação direta.</p>
-
-            <h3>Impacto prático desse novo playoff</h3>
+            <h3>O que muda na prática</h3>
             <ul>
-                <li>
-                    Seleções que ficariam eliminadas na fase de grupos de 32 times agora
-                    têm mais chance de avançar.
-                </li>
-                <li>
-                    Quem termina em 1º do grupo tende a pegar adversários mais frágeis,
-                    vantagem ainda maior do que no formato antigo.
-                </li>
-                <li>
-                    Aumento de risco físico: seleções que chegam até a final jogam{" "}
-                    <strong>8 partidas</strong> (antes eram 7).
-                </li>
+                <li>Seleções medianas têm mais chance de avançar</li>
+                <li>Líderes de grupo ganham vantagens maiores no chaveamento</li>
+                <li>Finalistas disputam <strong>8 partidas</strong> no total</li>
             </ul>
 
-            <h2>Oitavas, Quartas, Semis e Final</h2>
+            <h2>Mata-mata Tradicional</h2>
             <p>
-                A partir dos playoffs de 32, segue o mata-mata tradicional: oitavas,
-                quartas, semifinais, disputa de 3º lugar e final. Todos os jogos são
-                disputados em partida única.
+                A partir daí, o formato segue o modelo clássico: oitavas, quartas,
+                semifinais, disputa de terceiro lugar e final — todas em jogo único.
             </p>
 
             <h2>Cidades-sede e logística</h2>
             <p>
-                Como a Copa será disputada em <strong>três países</strong> (EUA, México
-                e Canadá), o formato foi ajustado para reduzir deslocamentos longos. A
-                fase de grupos é organizada por clusters regionais, garantindo que cada
-                seleção permaneça em uma mesma região durante os três jogos iniciais.
+                Como o torneio será disputado em <strong>três países</strong> (EUA,
+                México e Canadá), a FIFA organizou a fase de grupos em clusters
+                regionais, reduzindo deslocamentos longos.
             </p>
 
             <p>
-                O mata-mata, porém, exige deslocamentos maiores à medida que as equipes
-                avançam.
+                No mata-mata, os deslocamentos aumentam conforme as seleções avançam.
             </p>
 
-            <h2>Principais diferenças em relação às Copas anteriores</h2>
+            <h2>Principais mudanças</h2>
             <ul>
-                <li>Mais seleções (48 → maior diversidade e mais jogos)</li>
-                <li>12 grupos em vez de 8</li>
+                <li>Expansão para 48 seleções</li>
+                <li>12 grupos ao invés de 8</li>
                 <li>Classificação ampliada para terceiros colocados</li>
                 <li>Novo playoff antes das oitavas</li>
-                <li>Finalistas jogam 8 partidas (antes eram 7)</li>
-                <li>Torneio mais longo e mais distribuído geograficamente</li>
+                <li>
+                    Finalistas jogam <strong>8 partidas</strong>
+                </li>
+                <li>Torneio maior e geograficamente mais distribuído</li>
             </ul>
 
             <h2>Resumo rápido</h2>
@@ -108,18 +121,30 @@ const WorldCupFormat = () => (
                 <li>Novo playoff de 32</li>
                 <li>Finalistas jogam 8 partidas</li>
             </ul>
-
-            <p>
-                O formato da Copa 2026 aumenta o alcance global do torneio e cria uma
-                competição mais longa, com mais jogos e mais seleções. Para torcedores e
-                criadores de conteúdo, o novo modelo multiplica o volume de histórias,
-                estatísticas e curiosidades.
-            </p>
         </article>
 
         <BackToCentral />
+
+        <Script
+            id="ld-json-format"
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+                __html: JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "Article",
+                    headline: "Formato da Copa do Mundo 2026",
+                    description:
+                        "Saiba como funciona o novo formato da Copa 2026: 48 seleções, playoffs de 32, mais jogos e mudanças estruturais.",
+                    mainEntityOfPage:
+                        "https://quantofaltaparacopa.com.br/central-da-copa/formato",
+                    publisher: {
+                        "@type": "Organization",
+                        name: "Quanto Falta Para a Copa",
+                    },
+                }),
+            }}
+        />
     </>
 );
 
-
-export default WorldCupFormat
+export default WorldCupFormat;
