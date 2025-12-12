@@ -1,4 +1,4 @@
-import RotatingCuriosity from "./RotatingCuriosity"
+import RandomCuriosity from "./RandomCuriosity"
 
 const WorldCupGuideMenu = () => (
     <>
@@ -11,7 +11,7 @@ const WorldCupGuideMenu = () => (
                 {/* <a className="guide-option">Estádios</a> */}
                 {/* <a className="guide-option">História das Copas</a> */}
             </div>
-            <RotatingCuriosity />
+            <RandomCuriosity />
         </section>
     </>
 )

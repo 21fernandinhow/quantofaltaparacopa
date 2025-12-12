@@ -27,7 +27,7 @@ const getArticles = async (): Promise<Article[]> => {
         .filter((item) =>
             /copa|mundial|fifa|seleção|world cup/i.test(item.title || "")
         )
-        .slice(0, 12)
+        .slice(0, 6)
         .map((item) => ({
             title: item.title || "",
             link: item.link || "#",
