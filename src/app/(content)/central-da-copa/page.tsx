@@ -13,8 +13,8 @@ const WorldCupCentral = () => (
             <p>Tudo o que você precisa saber sobre a Copa do Mundo 2026.</p>
             <hr className="animated-gradient-line" />
         </section>
-        <WorldCupGuideMenu />
         <NewsSection />
+        <WorldCupGuideMenu />
     </>
 )
 
