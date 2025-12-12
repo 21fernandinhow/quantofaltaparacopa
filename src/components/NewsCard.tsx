@@ -7,7 +7,7 @@ interface NewsCardProps {
 
 export const NewsCard = ({ title, link, pubDate, snippet }: NewsCardProps) => {
     return (
-        <article className="card">
+        <div className="card">
             <a href={link} target="_blank" rel="noopener noreferrer" className="card-title">
                 {title}
             </a>
@@ -19,6 +19,6 @@ export const NewsCard = ({ title, link, pubDate, snippet }: NewsCardProps) => {
                     {new Date(pubDate).toLocaleDateString("pt-BR")}
                 </div>
             )}
-        </article>
+        </div>
     );
 }
