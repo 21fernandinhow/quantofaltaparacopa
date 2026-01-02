@@ -1,6 +1,8 @@
 import { getDaysToWorldCup } from "@/app/page";
 import Image from "next/image"
 
+export const dynamic = "force-dynamic";
+
 const Header = () => {
     const daysToWorldCup = getDaysToWorldCup();
 
