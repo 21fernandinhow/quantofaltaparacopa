@@ -1,6 +1,6 @@
 "use client"
 
-import { getDaysToWorldCup } from "@/app/page";
+import { getDaysToWorldCup } from "@/utils/getDaysToWorldCup";
 import Image from "next/image"
 
 const Header = () => {

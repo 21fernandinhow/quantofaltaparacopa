@@ -1,19 +1,10 @@
 import CounterHero from "@/components/CounterHero";
 import Footer from "@/components/Footer";
+import { getDaysToWorldCup } from "@/utils/getDaysToWorldCup";
 import { Metadata } from "next";
 import Script from "next/script";
 
 export const dynamic = "force-dynamic";
-
-export const getDaysToWorldCup = () => {
-  const today = new Date();
-  const target = new Date(2026, 5, 11);
-  
-  target.setHours(0, 0, 0, 0);
-  today.setHours(0, 0, 0, 0);
-
-  return Math.ceil((target.getTime() - today.getTime()) / (1000 * 60 * 60 * 24));
-};
 
 export const generateMetadata = async (): Promise<Metadata> => {
   const daysToWorldCup = getDaysToWorldCup();
