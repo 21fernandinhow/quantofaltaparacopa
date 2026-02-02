@@ -10,7 +10,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
   const daysToWorldCup = getDaysToWorldCup();
 
   return {
-    title: `Faltam ${daysToWorldCup} dias para a Copa do Mundo 2026!`,
+    title: `Faltam ${daysToWorldCup} dias para a Copa do Mundo 2026 - Contagem Regressiva`,
     description: `Faltam ${daysToWorldCup} dias para a Copa do Mundo 2026! Veja a contagem regressiva,
      saiba quantos dias restam para a próxima Copa e acompanhe todas as novidades do torneio.`,
     openGraph: {

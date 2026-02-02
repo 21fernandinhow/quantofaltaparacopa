@@ -9,25 +9,26 @@ interface CounterHeroProps {
 const CounterHero = ({ days }: CounterHeroProps) => {
 
     return (
-        <div id="counter-hero">
+        <main id="counter-hero">
             <ShareBtn days={days} />
             <div className="hero-container">
                 <Image
                     className="trophy"
                     src="/trophy.webp"
-                    alt="Trophy"
+                    alt="Troféu da Copa do Mundo 2026 - contagem regressiva"
                     width={240}
                     height={240}
                     priority
                 />
                 <h1>Faltam {days} dias para a próxima Copa do Mundo!</h1>
                 <p>
-                    A próxima Copa do Mundo será disputada por 48 times e será sediada nos EUA, Canadá e
-                    México, com início em 11 de junho de 2026.
+                    Acompanhe a contagem regressiva para a Copa do Mundo 2026.
+                    A Copa do Mundo começa em 11 de junho de 2026, e sediado nos EUA,
+                    Canadá e México.
                 </p>
                 <Link href={"/central-da-copa"} className="btn">Saiba mais</Link>
             </div>
-        </div>
+        </main>
     );
 }
 
