@@ -1,5 +1,6 @@
 import curiosities from "@/app/data/curiosities.json";
 import { BackToCentral } from "@/components/BackToCentral";
+import RelatedCuriosities from "@/components/RelatedCuriosities";
 import { Metadata } from "next";
 import Script from "next/script";
 
@@ -85,6 +86,8 @@ export default async function CuriosityPage({ params }: CuriosityPageProps) {
                 ))}
 
                 <BackToCentral />
+
+                <RelatedCuriosities currentSlug={slug} />
             </article>
 
             <Script
@@ -93,16 +96,56 @@ export default async function CuriosityPage({ params }: CuriosityPageProps) {
                 dangerouslySetInnerHTML={{
                     __html: JSON.stringify({
                         "@context": "https://schema.org",
-                        "@type": "Article",
-                        headline: curiosity.title,
-                        description:
-                            curiosity.content[0] ||
-                            "Curiosidade sobre a Copa do Mundo 2026.",
-                        mainEntityOfPage: `https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/${slug}`,
-                        publisher: {
-                            "@type": "Organization",
-                            name: "Quanto Falta Para a Copa",
-                        },
+                        "@graph": [
+                            {
+                                "@type": "Article",
+                                headline: curiosity.title,
+                                description:
+                                    curiosity.content[0] ||
+                                    "Curiosidade sobre a Copa do Mundo 2026.",
+                                image: "https://quantofaltaparacopa.com.br/trophy.webp",
+                                author: {
+                                    "@type": "Organization",
+                                    name: "Quanto Falta Para a Copa",
+                                },
+                                publisher: {
+                                    "@type": "Organization",
+                                    name: "Quanto Falta Para a Copa",
+                                    logo: {
+                                        "@type": "ImageObject",
+                                        url: "https://quantofaltaparacopa.com.br/trophy.webp",
+                                    },
+                                },
+                                mainEntityOfPage: {
+                                    "@type": "WebPage",
+                                    "@id": `https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/${slug}`,
+                                },
+                                datePublished: "2024-01-01",
+                                dateModified: new Date().toISOString(),
+                                wordCount: curiosity.content.join(" ").split(" ").length,
+                            },
+                            {
+                                "@type": "FAQPage",
+                                mainEntity: [
+                                    {
+                                        "@type": "Question",
+                                        name: curiosity.title,
+                                        acceptedAnswer: {
+                                            "@type": "Answer",
+                                            text: curiosity.content[0],
+                                        },
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        name: "Onde aconteceu esse fato na história da Copa?",
+                                        acceptedAnswer: {
+                                            "@type": "Answer",
+                                            text: curiosity.content.join(" "),
+                                        },
+                                    },
+                                ],
+                            },
+                        ],
                     }),
                 }}
             />

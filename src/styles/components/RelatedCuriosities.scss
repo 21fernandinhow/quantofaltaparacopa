@@ -1,0 +1,42 @@
+.related-wrapper {
+    margin-top: 3.75rem;
+    margin-bottom: 2rem;
+
+    h2 {
+        margin-bottom: 1.25rem;
+    }
+}
+
+.related-marquee {
+    overflow: hidden;
+    position: relative;
+}
+
+.related-track {
+    display: flex;
+    gap: 2.5rem;
+    width: max-content;
+    animation: scroll-left 20s linear infinite;
+}
+
+.related-item {
+    white-space: nowrap;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--text-color);
+    transition: opacity 0.3s ease;
+
+    &:hover {
+        opacity: 0.6;
+    }
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
