@@ -20,7 +20,7 @@ const CounterHero = ({ days }: CounterHeroProps) => {
                     height={240}
                     priority
                 />
-                <h1>Faltam {days} dias para a próxima Copa do Mundo!</h1>
+                <h1>Faltam {days} dias para a Copa do Mundo 2026!</h1>
                 <p>
                     Acompanhe a contagem regressiva para a Copa do Mundo 2026.
                     A Copa do Mundo começa em 11 de junho de 2026, e sediado nos EUA,
