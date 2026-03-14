@@ -32,8 +32,6 @@
   ],
   "metadata": {
     "totalEntries": 22,
-    "generator": "aeo.js",
-    "generatorUrl": "https://aeojs.org",
     "embedding": {
       "recommended": "text-embedding-ada-002",
       "dimensions": 1536

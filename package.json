@@ -5,12 +5,10 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
-    "postbuild": "node -e \"import('aeo.js/next').then(m => m.postBuild({ title: 'Quanto Falta pra Copa', url: 'https://quantofaltapracopa.com' }))\"",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "aeo.js": "^0.0.7",
     "next": "^16.0.7",
     "react": "^19.2.1",
     "react-dom": "^19.2.1",
