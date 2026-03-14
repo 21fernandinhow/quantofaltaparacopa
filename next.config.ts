@@ -5,6 +5,9 @@ const nextConfig: NextConfig = {
   sassOptions: {
     sourceMap: true,
   },
+  turbopack: {
+    root: process.cwd(),
+  },
 };
 
 export default withAeo({

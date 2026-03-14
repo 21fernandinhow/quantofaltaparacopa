@@ -1,0 +1,38 @@
+{
+  "version": "1.0",
+  "generated": "2026-03-14T14:56:03.800Z",
+  "site": {
+    "title": "Quanto Falta pra Copa",
+    "description": "Site sobre a Copa do Mundo: contagem regressiva, central da copa, formato, grupos e curiosidades.",
+    "url": "https://quantofaltaparacopa.com.br"
+  },
+  "documents": [
+    { "url": "https://quantofaltaparacopa.com.br/", "title": "Quanto Falta pra Copa" },
+    { "url": "https://quantofaltaparacopa.com.br/central-da-copa", "title": "Central da Copa" },
+    { "url": "https://quantofaltaparacopa.com.br/central-da-copa/formato", "title": "Formato da Copa" },
+    { "url": "https://quantofaltaparacopa.com.br/central-da-copa/grupos", "title": "Grupos da Copa" },
+    { "url": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/copa-com-maior-numero-de-jogos", "title": "Copa com maior número de jogos" },
+    { "url": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/primeira-copa-em-tres-paises", "title": "Primeira copa em três países" },
+    { "url": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/viagens-mais-longas-da-historia", "title": "Viagens mais longas da história" },
+    { "url": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/maior-numero-de-sedes", "title": "Maior número de sedes" },
+    { "url": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/recorde-de-publico-aguardado", "title": "Recorde de público aguardado" },
+    { "url": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/franca-kuwait-gol-anulado-por-invasao", "title": "França x Kuwait – gol anulado por invasão" },
+    { "url": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/copa-do-mundo-e-os-camisa-10-emprestados", "title": "Copa do Mundo e os camisa 10 emprestados" },
+    { "url": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/jogadores-quase-perderam-copa-por-visto-doenca", "title": "Jogadores que quase perderam a copa por visto/doença" },
+    { "url": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/jogos-com-circunstancias-climaticas-absurdas", "title": "Jogos com circunstâncias climáticas absurdas" },
+    { "url": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/maior-goleada-da-historia-da-copa", "title": "Maior goleada da história da copa" },
+    { "url": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/primeiro-jogo-da-historia-da-copa", "title": "Primeiro jogo da história da copa" },
+    { "url": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/jogador-com-mais-gols-em-uma-unica-copa", "title": "Jogador com mais gols em uma única copa" },
+    { "url": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/jogador-mais-velho-a-jogar-uma-copa", "title": "Jogador mais velho a jogar uma copa" },
+    { "url": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/jogador-mais-jovem-a-marcar-gol-em-copa", "title": "Jogador mais jovem a marcar gol em copa" },
+    { "url": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/pais-com-mais-participacoes-em-copa", "title": "País com mais participações em copa" },
+    { "url": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/tecnico-com-mais-titulos-de-copa", "title": "Técnico com mais títulos de copa" },
+    { "url": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/maiores-erros-de-arbitragem-das-copas", "title": "Maiores erros de arbitragem das copas" },
+    { "url": "https://quantofaltaparacopa.com.br/privacy", "title": "Política de Privacidade" }
+  ],
+  "metadata": {
+    "totalDocuments": 22,
+    "generator": "aeo.js",
+    "generatorUrl": "https://aeojs.org"
+  }
+}

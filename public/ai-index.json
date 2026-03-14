@@ -1,0 +1,42 @@
+{
+  "version": "1.0",
+  "generated": "2026-03-14T14:56:03.803Z",
+  "site": {
+    "title": "Quanto Falta pra Copa",
+    "description": "Site sobre a Copa do Mundo: contagem regressiva, central da copa, formato, grupos e curiosidades.",
+    "url": "https://quantofaltaparacopa.com.br"
+  },
+  "entries": [
+    { "id": "home", "url": "https://quantofaltaparacopa.com.br/", "title": "Quanto Falta pra Copa", "content": "Página inicial. Contagem regressiva e informações sobre a Copa do Mundo." },
+    { "id": "central-da-copa", "url": "https://quantofaltaparacopa.com.br/central-da-copa", "title": "Central da Copa", "content": "Hub com formato, grupos e curiosidades da Copa do Mundo." },
+    { "id": "formato", "url": "https://quantofaltaparacopa.com.br/central-da-copa/formato", "title": "Formato da Copa", "content": "Explicação do formato de disputa da Copa do Mundo." },
+    { "id": "grupos", "url": "https://quantofaltaparacopa.com.br/central-da-copa/grupos", "title": "Grupos da Copa", "content": "Grupos da Copa do Mundo." },
+    { "id": "curiosidade-copa-maior-numero-jogos", "url": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/copa-com-maior-numero-de-jogos", "title": "Copa com maior número de jogos", "content": "Curiosidade sobre a edição da Copa com mais jogos." },
+    { "id": "curiosidade-primeira-copa-tres-paises", "url": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/primeira-copa-em-tres-paises", "title": "Primeira copa em três países", "content": "Primeira Copa do Mundo sediada em três países." },
+    { "id": "curiosidade-viagens-mais-longas", "url": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/viagens-mais-longas-da-historia", "title": "Viagens mais longas da história", "content": "Curiosidade sobre as viagens mais longas na história das Copas." },
+    { "id": "curiosidade-maior-numero-sedes", "url": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/maior-numero-de-sedes", "title": "Maior número de sedes", "content": "Copa com maior número de sedes." },
+    { "id": "curiosidade-recorde-publico", "url": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/recorde-de-publico-aguardado", "title": "Recorde de público aguardado", "content": "Recorde de público esperado na Copa." },
+    { "id": "curiosidade-franca-kuwait", "url": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/franca-kuwait-gol-anulado-por-invasao", "title": "França x Kuwait – gol anulado por invasão", "content": "Gol anulado por invasão de torcida no jogo França x Kuwait." },
+    { "id": "curiosidade-camisa-10-emprestados", "url": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/copa-do-mundo-e-os-camisa-10-emprestados", "title": "Copa do Mundo e os camisa 10 emprestados", "content": "Histórias de camisa 10 que jogaram Copa emprestados." },
+    { "id": "curiosidade-visto-doenca", "url": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/jogadores-quase-perderam-copa-por-visto-doenca", "title": "Jogadores que quase perderam a copa por visto/doença", "content": "Jogadores que quase ficaram de fora por visto ou doença." },
+    { "id": "curiosidade-clima-absurdo", "url": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/jogos-com-circunstancias-climaticas-absurdas", "title": "Jogos com circunstâncias climáticas absurdas", "content": "Jogos de Copa com condições climáticas extremas." },
+    { "id": "curiosidade-maior-goleada", "url": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/maior-goleada-da-historia-da-copa", "title": "Maior goleada da história da copa", "content": "Maior goleada na história das Copas do Mundo." },
+    { "id": "curiosidade-primeiro-jogo", "url": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/primeiro-jogo-da-historia-da-copa", "title": "Primeiro jogo da história da copa", "content": "O primeiro jogo da história da Copa do Mundo." },
+    { "id": "curiosidade-mais-gols-uma-copa", "url": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/jogador-com-mais-gols-em-uma-unica-copa", "title": "Jogador com mais gols em uma única copa", "content": "Recorde de gols de um jogador em uma única edição." },
+    { "id": "curiosidade-jogador-mais-velho", "url": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/jogador-mais-velho-a-jogar-uma-copa", "title": "Jogador mais velho a jogar uma copa", "content": "Jogador mais velho a disputar uma Copa do Mundo." },
+    { "id": "curiosidade-jogador-mais-jovem-gol", "url": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/jogador-mais-jovem-a-marcar-gol-em-copa", "title": "Jogador mais jovem a marcar gol em copa", "content": "Jogador mais jovem a marcar gol em Copa do Mundo." },
+    { "id": "curiosidade-pais-mais-participacoes", "url": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/pais-com-mais-participacoes-em-copa", "title": "País com mais participações em copa", "content": "País com mais participações em Copas do Mundo." },
+    { "id": "curiosidade-tecnico-mais-titulos", "url": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/tecnico-com-mais-titulos-de-copa", "title": "Técnico com mais títulos de copa", "content": "Técnico com mais títulos de Copa do Mundo." },
+    { "id": "curiosidade-erros-arbitragem", "url": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/maiores-erros-de-arbitragem-das-copas", "title": "Maiores erros de arbitragem das copas", "content": "Maiores erros de arbitragem na história das Copas." },
+    { "id": "privacy", "url": "https://quantofaltaparacopa.com.br/privacy", "title": "Política de Privacidade", "content": "Política de privacidade do site Quanto Falta pra Copa." }
+  ],
+  "metadata": {
+    "totalEntries": 22,
+    "generator": "aeo.js",
+    "generatorUrl": "https://aeojs.org",
+    "embedding": {
+      "recommended": "text-embedding-ada-002",
+      "dimensions": 1536
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "site": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Quanto Falta pra Copa",
+      "description": "Site sobre a Copa do Mundo: contagem regressiva, central da copa, formato, grupos e curiosidades.",
+      "url": "https://quantofaltaparacopa.com.br"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Quanto Falta pra Copa",
+      "url": "https://quantofaltaparacopa.com.br"
+    }
+  ],
+  "pages": {
+    "home": "https://quantofaltaparacopa.com.br/",
+    "centralDaCopa": "https://quantofaltaparacopa.com.br/central-da-copa",
+    "formato": "https://quantofaltaparacopa.com.br/central-da-copa/formato",
+    "grupos": "https://quantofaltaparacopa.com.br/central-da-copa/grupos",
+    "curiosidades": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades",
+    "privacy": "https://quantofaltaparacopa.com.br/privacy"
+  }
+}
