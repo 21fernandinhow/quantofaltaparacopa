@@ -40,7 +40,7 @@ Site sobre a Copa do Mundo: contagem regressiva, central da copa (formato, grupo
 
 ## About This Document
 
-This concatenated documentation file is generated automatically by aeo.js
+This concatenated documentation file is generated
 to make it easier for AI systems to understand the complete context of this project.
 
 For a structured index, see: https://quantofaltaparacopa.com.br/llms.txt
