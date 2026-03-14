@@ -57,6 +57,14 @@ const WorldCupCentral = () => (
                     url: "https://quantofaltaparacopa.com.br/central-da-copa",
                     description:
                         "Página central com notícias, formato, grupos e conteúdos sobre a Copa do Mundo 2026.",
+                    publisher: {
+                        "@type": "Organization",
+                        name: "Quanto Falta Para a Copa",
+                        logo: {
+                            "@type": "ImageObject",
+                            url: "https://quantofaltaparacopa.com.br/trophy.webp",
+                        },
+                    },
                     mainEntity: {
                         "@type": "ItemList",
                         itemListElement: [

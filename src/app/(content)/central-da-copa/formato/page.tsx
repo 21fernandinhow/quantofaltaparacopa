@@ -140,6 +140,10 @@ const WorldCupFormat = () => (
                     publisher: {
                         "@type": "Organization",
                         name: "Quanto Falta Para a Copa",
+                        logo: {
+                            "@type": "ImageObject",
+                            url: "https://quantofaltaparacopa.com.br/trophy.webp",
+                        },
                     },
                 }),
             }}

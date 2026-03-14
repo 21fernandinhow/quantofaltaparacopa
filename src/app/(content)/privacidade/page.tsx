@@ -2,6 +2,8 @@ import { Metadata } from "next";
 
 export const generateMetadata = (): Metadata => ({
     title: "Política de Privacidade | Quanto Falta Para a Copa",
+    description:
+        "Política de privacidade do site Quanto Falta pra Copa: dados coletados, uso, cookies e como entrar em contato.",
 });
 
 const PrivacyPolitics = () => (
