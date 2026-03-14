@@ -8,7 +8,6 @@
   },
   "entries": [
     { "id": "home", "url": "https://quantofaltaparacopa.com.br/", "title": "Quanto Falta pra Copa", "content": "Página inicial. Contagem regressiva e informações sobre a Copa do Mundo." },
-    { "id": "central-da-copa", "url": "https://quantofaltaparacopa.com.br/central-da-copa", "title": "Central da Copa", "content": "Hub com formato, grupos e curiosidades da Copa do Mundo." },
     { "id": "formato", "url": "https://quantofaltaparacopa.com.br/central-da-copa/formato", "title": "Formato da Copa", "content": "Explicação do formato de disputa da Copa do Mundo." },
     { "id": "grupos", "url": "https://quantofaltaparacopa.com.br/central-da-copa/grupos", "title": "Grupos da Copa", "content": "Grupos da Copa do Mundo." },
     { "id": "curiosidade-copa-maior-numero-jogos", "url": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/copa-com-maior-numero-de-jogos", "title": "Copa com maior número de jogos", "content": "Curiosidade sobre a edição da Copa com mais jogos." },

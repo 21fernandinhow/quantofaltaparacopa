@@ -1,4 +1,3 @@
-import Link from "next/link";
 import ShareBtn from "./ShareBtn";
 import Image from "next/image";
 
@@ -26,7 +25,6 @@ const CounterHero = ({ days }: CounterHeroProps) => {
                     A Copa do Mundo começa em 11 de junho de 2026, e sediado nos EUA,
                     Canadá e México.
                 </p>
-                <Link href={"/central-da-copa"} className="btn">Saiba mais</Link>
             </div>
         </main>
     );

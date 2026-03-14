@@ -5,7 +5,6 @@ This file contains all documentation concatenated into a single file for easy co
 ## Table of Contents
 
 - Home: https://quantofaltaparacopa.com.br/
-- Central da Copa: https://quantofaltaparacopa.com.br/central-da-copa
 - Formato: https://quantofaltaparacopa.com.br/central-da-copa/formato
 - Grupos: https://quantofaltaparacopa.com.br/central-da-copa/grupos
 - Curiosidades:

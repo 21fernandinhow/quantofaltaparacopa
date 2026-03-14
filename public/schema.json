@@ -16,10 +16,25 @@
   ],
   "pages": {
     "home": "https://quantofaltaparacopa.com.br/",
-    "centralDaCopa": "https://quantofaltaparacopa.com.br/central-da-copa",
     "formato": "https://quantofaltaparacopa.com.br/central-da-copa/formato",
     "grupos": "https://quantofaltaparacopa.com.br/central-da-copa/grupos",
-    "curiosidades": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades",
+    "curiosidades-copa-com-maior-numero-de-jogos": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/copa-com-maior-numero-de-jogos",
+    "curiosidades-primeira-copa-em-tres-paises": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/primeira-copa-em-tres-paises",
+    "curiosidades-viagens-mais-longas-da-historia": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/viagens-mais-longas-da-historia",
+    "curiosidades-maior-numero-de-sedes": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/maior-numero-de-sedes",
+    "curiosidades-recorde-de-publico-aguardado": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/recorde-de-publico-aguardado",
+    "curiosidades-franca-kuwait-gol-anulado-por-invasao": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/franca-kuwait-gol-anulado-por-invasao",
+    "curiosidades-copa-do-mundo-e-os-camisa-10-emprestados": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/copa-do-mundo-e-os-camisa-10-emprestados",
+    "curiosidades-jogadores-quase-perderam-copa-por-visto-doenca": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/jogadores-quase-perderam-copa-por-visto-doenca",
+    "curiosidades-jogos-com-circunstancias-climaticas-absurdas": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/jogos-com-circunstancias-climaticas-absurdas",
+    "curiosidades-maior-goleada-da-historia-da-copa": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/maior-goleada-da-historia-da-copa",
+    "curiosidades-primeiro-jogo-da-historia-da-copa": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/primeiro-jogo-da-historia-da-copa",
+    "curiosidades-jogador-com-mais-gols-em-uma-unica-copa": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/jogador-com-mais-gols-em-uma-unica-copa",
+    "curiosidades-jogador-mais-velho-a-jogar-uma-copa": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/jogador-mais-velho-a-jogar-uma-copa",
+    "curiosidades-jogador-mais-jovem-a-marcar-gol-em-copa": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/jogador-mais-jovem-a-marcar-gol-em-copa",
+    "curiosidades-pais-com-mais-participacoes-em-copa": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/pais-com-mais-participacoes-em-copa",
+    "curiosidades-tecnico-com-mais-titulos-de-copa": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/tecnico-com-mais-titulos-de-copa",
+    "curiosidades-maiores-erros-de-arbitragem-das-copas": "https://quantofaltaparacopa.com.br/central-da-copa/curiosidades/maiores-erros-de-arbitragem-das-copas",
     "privacy": "https://quantofaltaparacopa.com.br/privacy"
   }
 }

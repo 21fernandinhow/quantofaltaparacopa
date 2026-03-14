@@ -2,6 +2,7 @@
 
 import { getDaysToWorldCup } from "@/utils/getDaysToWorldCup";
 import Image from "next/image"
+import Link from "next/link";
 
 const Header = () => {
     const daysToWorldCup = getDaysToWorldCup();
@@ -9,7 +10,7 @@ const Header = () => {
     return (
         <header>
             <div className="header-title">
-                <a href="/central-da-copa">
+                <Link href="/">
                     <Image
                         className="trophy"
                         src="/trophy.webp"
@@ -19,7 +20,7 @@ const Header = () => {
                         priority
                     />
                     <h1 className="gradient-text">Faltam {daysToWorldCup} dias para a copa</h1>
-                </a>
+                </Link>
             </div>
             <hr />
         </header>

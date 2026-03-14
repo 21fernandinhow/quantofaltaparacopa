@@ -1,6 +1,9 @@
 import CounterHero from "@/components/CounterHero";
 import FaqSection from "@/components/FaqSection";
 import Footer from "@/components/Footer";
+import LearnMoreSection from "@/components/LearnMoreSection";
+import NewsSection from "@/components/NewsSection";
+import WorldCupGuideMenu from "@/components/WorldCupGuideMenu";
 import { getDaysToWorldCup } from "@/utils/getDaysToWorldCup";
 import { Metadata } from "next";
 import Script from "next/script";
@@ -125,6 +128,9 @@ const Home = () => {
   return (
     <>
       <CounterHero days={daysToWorldCup} />
+      <LearnMoreSection />
+      <NewsSection />
+      <WorldCupGuideMenu />
       <FaqSection items={FAQ_ITEMS} />
       <Footer />
 
