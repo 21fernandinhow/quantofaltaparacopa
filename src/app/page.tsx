@@ -129,8 +129,10 @@ const Home = () => {
     <>
       <CounterHero days={daysToWorldCup} />
       <LearnMoreSection />
-      <NewsSection />
       <WorldCupGuideMenu />
+      <hr className="animated-gradient-line" />
+      <NewsSection />
+      <hr className="animated-gradient-line" />
       <FaqSection items={FAQ_ITEMS} />
       <Footer />
 
