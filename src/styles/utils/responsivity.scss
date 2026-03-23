@@ -1,5 +1,10 @@
 @media (max-width: 768px) {
 
+    #counter-hero {
+        min-height: 80vh;
+        min-height: 75dvh;
+    }
+
     #groups-page {
         .groups-list {
             flex-direction: column;
