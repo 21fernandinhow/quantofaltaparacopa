@@ -56,34 +56,6 @@ const GroupsPage = () => (
                     </div>
                 ))}
             </div>
-
-            <div className="playoffs-info">
-                <h2>Repescagens da Copa do Mundo 2026</h2>
-                <p>
-                    As últimas vagas da Copa serão definidas em março de 2026, nas repescagens da UEFA e
-                    nos playoffs intercontinentais. Veja abaixo quem disputa cada chave.
-                </p>
-
-                <h3>Playoffs da UEFA — 4 vagas</h3>
-                <p>As 16 seleções estão divididas em quatro caminhos. Cada caminho classifica 1 seleção.</p>
-                <ul>
-                    <li><strong>Path A:</strong> Itália 🇮🇹, Irlanda do Norte 🇬🇧, País de Gales 🏴, Bósnia e Herzegovina 🇧🇦</li>
-                    <li><strong>Path B:</strong> Ucrânia 🇺🇦, Suécia 🇸🇪, Polônia 🇵🇱, Albânia 🇦🇱</li>
-                    <li><strong>Path C:</strong> Turquia 🇹🇷, Romênia 🇷🇴, Eslováquia 🇸🇰, Kosovo 🇽🇰</li>
-                    <li><strong>Path D:</strong> Dinamarca 🇩🇰, Macedônia do Norte 🇲🇰, República Tcheca 🇨🇿, Irlanda 🇮🇪</li>
-                </ul>
-
-                <h3>Playoffs Intercontinentais — 2 vagas</h3>
-                <p>Seis seleções disputam duas vagas finais para completar as 48 seleções da Copa.</p>
-                <ul>
-                    <li><strong>Bracket 1:</strong> República Democrática do Congo 🇨🇩, Nova Caledônia 🇳🇨, Jamaica 🇯🇲</li>
-                    <li><strong>Bracket 2:</strong> Bolívia 🇧🇴, Suriname 🇸🇷, Iraque 🇮🇶</li>
-                </ul>
-
-                <p>
-                    <i>Os vencedores dos playoffs completam o quadro final da Copa do Mundo 2026.</i>
-                </p>
-            </div>
         </div>
 
         <BackToCentral />
