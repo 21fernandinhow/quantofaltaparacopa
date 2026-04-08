@@ -4,14 +4,14 @@
       "name": "Grupo A",
       "teams": [
         "🇲🇽 México",
-        "🇰🇷 Coreia do Sul",
         "🇿🇦 África do Sul",
-        "🏳️ Repescagem UEFA D"
+        "🇰🇷 Coreia do Sul",
+        "🇨🇿 República Tcheca"
       ]
     },
     {
       "name": "Grupo B",
-      "teams": ["🇨🇦 Canadá", "🇨🇭 Suíça", "🇶🇦 Catar", "🏳️ Repescagem UEFA A"]
+      "teams": ["🇨🇦 Canadá", "🇧🇦 Bósnia e Herzegovina", "🇶🇦 Catar", "🇨🇭 Suíça"]
     },
     {
       "name": "Grupo C",
@@ -21,9 +21,9 @@
       "name": "Grupo D",
       "teams": [
         "🇺🇸 Estados Unidos",
-        "🇦🇺 Austrália",
         "🇵🇾 Paraguai",
-        "🏳️ Repescagem UEFA C"
+        "🇦🇺 Austrália",
+        "🇹🇷 Turquia"
       ]
     },
     {
@@ -32,46 +32,36 @@
     },
     {
       "name": "Grupo F",
-      "teams": ["🇳🇱 Holanda", "🇯🇵 Japão", "🇹🇳 Tunísia", "🏳️ Repescagem UEFA B"]
+      "teams": ["🇳🇱 Holanda", "🇯🇵 Japão", "🇸🇪 Suécia", "🇹🇳 Tunísia"]
     },
     {
       "name": "Grupo G",
-      "teams": ["🇧🇪 Bélgica", "🇮🇷 Irã", "🇪🇬 Egito", "🇳🇿 Nova Zelândia"]
+      "teams": ["🇧🇪 Bélgica", "🇪🇬 Egito", "🇮🇷 Irã", "🇳🇿 Nova Zelândia"]
     },
     {
       "name": "Grupo H",
       "teams": [
         "🇪🇸 Espanha",
-        "🇺🇾 Uruguai",
+        "🇨🇻 Cabo Verde",
         "🇸🇦 Arábia Saudita",
-        "🇨🇻 Cabo Verde"
+        "🇺🇾 Uruguai"
       ]
     },
     {
       "name": "Grupo I",
-      "teams": [
-        "🇫🇷 França",
-        "🇸🇳 Senegal",
-        "🇳🇴 Noruega",
-        "🏳️ Repescagem Intercontinental 2"
-      ]
+      "teams": ["🇫🇷 França", "🇸🇳 Senegal", "🇮🇶 Iraque", "🇳🇴 Noruega"]
     },
     {
       "name": "Grupo J",
-      "teams": ["🇦🇷 Argentina", "🇦🇹 Áustria", "🇩🇿 Argélia", "🇯🇴 Jordânia"]
+      "teams": ["🇦🇷 Argentina", "🇩🇿 Argélia", "🇦🇹 Áustria", "🇯🇴 Jordânia"]
     },
     {
       "name": "Grupo K",
-      "teams": [
-        "🇵🇹 Portugal",
-        "🇨🇴 Colômbia",
-        "🇺🇿 Uzbequistão",
-        "🏳️ Repescagem Intercontinental 1"
-      ]
+      "teams": ["🇵🇹 Portugal", "🇨🇩 RD Congo", "🇺🇿 Uzbequistão", "🇨🇴 Colômbia"]
     },
     {
       "name": "Grupo L",
-      "teams": ["🏴 Inglaterra", "🇭🇷 Croácia", "🇵🇦 Panamá", "🇬🇭 Gana"]
+      "teams": ["🏴 Inglaterra", "🇭🇷 Croácia", "🇬🇭 Gana", "🇵🇦 Panamá"]
     }
   ]
 }
