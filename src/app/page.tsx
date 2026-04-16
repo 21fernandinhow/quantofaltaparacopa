@@ -1,3 +1,4 @@
+import AdBanner from "@/components/AdBanner";
 import CounterHero from "@/components/CounterHero";
 import FaqSection from "@/components/FaqSection";
 import Footer from "@/components/Footer";
@@ -130,9 +131,9 @@ const Home = () => {
       <CounterHero days={daysToWorldCup} />
       <LearnMoreSection />
       <WorldCupGuideMenu />
-      <hr className="animated-gradient-line" />
+      <AdBanner />
       <NewsSection />
-      <hr className="animated-gradient-line" />
+      <AdBanner />
       <FaqSection items={FAQ_ITEMS} />
       <Footer />
 

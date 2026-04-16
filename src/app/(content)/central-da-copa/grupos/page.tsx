@@ -1,5 +1,6 @@
 import groups from '@/app/data/groups.json';
 import { BackToCentral } from '@/components/BackToCentral';
+import AdBanner from '@/components/AdBanner';
 import { Metadata } from "next";
 import Script from "next/script";
 
@@ -47,7 +48,20 @@ const GroupsPage = () => (
             </div>
 
             <div className="groups-list">
-                {groups.groups.map((g) => (
+                {groups.groups.slice(0, Math.ceil(groups.groups.length / 2)).map((g) => (
+                    <div key={g.name} className="card">
+                        <h4 className="card-title">{g.name}</h4>
+                        {g.teams.map((team, i) => (
+                            <span key={i}>{team}</span>
+                        ))}
+                    </div>
+                ))}
+            </div>
+
+            <AdBanner />
+
+            <div className="groups-list">
+                {groups.groups.slice(Math.ceil(groups.groups.length / 2)).map((g) => (
                     <div key={g.name} className="card">
                         <h4 className="card-title">{g.name}</h4>
                         {g.teams.map((team, i) => (

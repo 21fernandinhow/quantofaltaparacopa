@@ -1,0 +1,21 @@
+#ad-banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 0;
+
+    a {
+        display: block;
+        max-width: 300px;
+        width: 100%;
+        line-height: 0;
+    }
+
+    .ad-banner-image {
+        width: 100%;
+        height: auto;
+        max-width: 300px;
+        border-radius: 4px;
+    }
+}

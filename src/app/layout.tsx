@@ -1,4 +1,5 @@
 import "@/styles/index.scss";
+import { Analytics } from "@vercel/analytics/next";
 import Script from "next/script";
 
 const organizationSchema = {
@@ -30,6 +31,7 @@ export default function RootLayout({
           crossOrigin="anonymous"
         />
         {children}
+        <Analytics />
       </body>
     </html>
   );

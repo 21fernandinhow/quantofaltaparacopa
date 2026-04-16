@@ -1,6 +1,8 @@
+import { Fragment } from "react";
 import curiosities from "@/app/data/curiosities.json";
 import { BackToCentral } from "@/components/BackToCentral";
 import RelatedCuriosities from "@/components/RelatedCuriosities";
+import AdBanner from "@/components/AdBanner";
 import { Metadata } from "next";
 import Script from "next/script";
 
@@ -82,7 +84,12 @@ export default async function CuriosityPage({ params }: CuriosityPageProps) {
                 <h1>{curiosity.title}</h1>
 
                 {curiosity.content.map((paragraph: string, i: number) => (
-                    <p key={i}>{paragraph}</p>
+                    <Fragment key={i}>
+                        <p>{paragraph}</p>
+                        {i === Math.ceil(curiosity.content.length / 2) - 1 && (
+                            <AdBanner />
+                        )}
+                    </Fragment>
                 ))}
 
                 <BackToCentral />

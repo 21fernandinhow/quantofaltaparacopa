@@ -1,3 +1,4 @@
+import AdBanner from "@/components/AdBanner";
 import { BackToCentral } from "@/components/BackToCentral";
 import { Metadata } from "next";
 import Script from "next/script";
@@ -70,6 +71,8 @@ const WorldCupFormat = () => (
                 </li>
             </ul>
 
+            <AdBanner />
+
             <h2>Playoffs de 32 Seleções</h2>
             <p>
                 Antes das oitavas, agora existe uma etapa inédita: o{" "}
@@ -100,6 +103,8 @@ const WorldCupFormat = () => (
             <p>
                 No mata-mata, os deslocamentos aumentam conforme as seleções avançam.
             </p>
+
+            <AdBanner />
 
             <h2>Principais mudanças</h2>
             <ul>
