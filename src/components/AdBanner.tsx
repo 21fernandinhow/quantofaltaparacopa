@@ -2,7 +2,6 @@
 
 import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
-import { track } from "@vercel/analytics";
 
 const AD_IMAGES_COUNT = 7;
 const AD_LINK = "https://www.instagram.com/gbstorejf_/";
@@ -41,7 +40,7 @@ const AdBanner = () => {
                     target="_blank"
                     rel="noopener noreferrer sponsored"
                     aria-label="Publicidade"
-                    onClick={() => track('ad_click', { image: imageIndex, destination: AD_LINK })}
+
                 >
                     <Image
                         src={`/ads/${imageIndex}.webp`}

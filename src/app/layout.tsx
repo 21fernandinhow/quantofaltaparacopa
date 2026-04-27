@@ -1,5 +1,4 @@
 import "@/styles/index.scss";
-import { Analytics } from "@vercel/analytics/next";
 import Script from "next/script";
 
 const organizationSchema = {
@@ -25,13 +24,7 @@ export default function RootLayout({
             __html: JSON.stringify(organizationSchema),
           }}
         />
-        <Script
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2366343909610236"
-          strategy="afterInteractive"
-          crossOrigin="anonymous"
-        />
         {children}
-        <Analytics />
       </body>
     </html>
   );
