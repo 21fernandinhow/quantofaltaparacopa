@@ -71,7 +71,7 @@ const WorldCupFormat = () => (
                 </li>
             </ul>
 
-            <AdBanner />
+            <AdBanner disabled />
 
             <h2>Playoffs de 32 Seleções</h2>
             <p>
@@ -104,7 +104,7 @@ const WorldCupFormat = () => (
                 No mata-mata, os deslocamentos aumentam conforme as seleções avançam.
             </p>
 
-            <AdBanner />
+            <AdBanner disabled />
 
             <h2>Principais mudanças</h2>
             <ul>

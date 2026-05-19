@@ -87,7 +87,7 @@ export default async function CuriosityPage({ params }: CuriosityPageProps) {
                     <Fragment key={i}>
                         <p>{paragraph}</p>
                         {i === Math.ceil(curiosity.content.length / 2) - 1 && (
-                            <AdBanner />
+                            <AdBanner disabled />
                         )}
                     </Fragment>
                 ))}

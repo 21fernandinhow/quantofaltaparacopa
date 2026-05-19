@@ -58,7 +58,7 @@ const GroupsPage = () => (
                 ))}
             </div>
 
-            <AdBanner />
+            <AdBanner disabled />
 
             <div className="groups-list">
                 {groups.groups.slice(Math.ceil(groups.groups.length / 2)).map((g) => (

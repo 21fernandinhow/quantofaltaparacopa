@@ -6,10 +6,16 @@ import Image from "next/image";
 const AD_IMAGES_COUNT = 7;
 const AD_LINK = "https://www.instagram.com/gbstorejf_/";
 
-const AdBanner = () => {
+interface AdBannerProps {
+    disabled?: boolean
+}
+
+const AdBanner = ({disabled}: AdBannerProps) => {
     const [imageIndex, setImageIndex] = useState<number | null>(null);
     const [isVisible, setIsVisible] = useState(false);
     const containerRef = useRef<HTMLDivElement>(null);
+
+    if(disabled) return <></>
 
     useEffect(() => {
         const observer = new IntersectionObserver(

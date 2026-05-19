@@ -8,7 +8,7 @@ interface FooterProps{
 const Footer = ({alternative}:FooterProps) => {
   return (
     <footer className={`footer ${alternative ? 'footer-alternative' : ''}`}>
-      <AdBanner />
+      <AdBanner disabled />
       <hr />
       <span>Rumo ao Hexa </span>
       <span className="hide-mobile"> | </span>

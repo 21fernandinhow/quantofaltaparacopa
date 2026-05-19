@@ -131,9 +131,9 @@ const Home = () => {
       <CounterHero days={daysToWorldCup} />
       <LearnMoreSection />
       <WorldCupGuideMenu />
-      <AdBanner />
+      <AdBanner disabled />
       <NewsSection />
-      <AdBanner />
+      <AdBanner disabled />
       <FaqSection items={FAQ_ITEMS} />
       <Footer />
 
