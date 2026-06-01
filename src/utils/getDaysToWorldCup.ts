@@ -5,5 +5,7 @@ export const getDaysToWorldCup = () => {
     target.setHours(0, 0, 0, 0);
     today.setHours(0, 0, 0, 0);
 
-    return Math.ceil((target.getTime() - today.getTime()) / (1000 * 60 * 60 * 24));
+    const daysToWorldCup = Math.ceil((target.getTime() - today.getTime()) / (1000 * 60 * 60 * 24));
+
+    return daysToWorldCup >= 0 ? daysToWorldCup : 0;
 };
