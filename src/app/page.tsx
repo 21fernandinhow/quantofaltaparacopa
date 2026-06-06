@@ -15,14 +15,14 @@ export const generateMetadata = async (): Promise<Metadata> => {
   const daysToWorldCup = getDaysToWorldCup();
   const description =
     daysToWorldCup > 0
-      ? `Faltam ${daysToWorldCup} dias para a Copa do Mundo 2026. Contagem regressiva, formato, grupos e curiosidades do Mundial em um só lugar.`
+      ? `${daysToWorldCup === 1 ? "Falta 1 dia" : `Faltam ${daysToWorldCup} dias`} para a Copa do Mundo 2026. Contagem regressiva, formato, grupos e curiosidades do Mundial em um só lugar.`
       : "Copa do Mundo 2026: contagem regressiva, formato, grupos e curiosidades do Mundial em um só lugar.";
 
   return {
-    title: `Faltam ${daysToWorldCup} dias para a Copa do Mundo 2026 - Contagem Regressiva`,
+    title: `${daysToWorldCup === 1 ? "Falta 1 dia" : `Faltam ${daysToWorldCup} dias`} para a Copa do Mundo 2026 - Contagem Regressiva`,
     description,
     openGraph: {
-      title: `Faltam ${daysToWorldCup} dias para a Copa do Mundo 2026!`,
+      title: `${daysToWorldCup === 1 ? "Falta 1 dia" : `Faltam ${daysToWorldCup} dias`} para a Copa do Mundo 2026!`,
       description: "Contagem regressiva para a Copa do Mundo de 2026.",
       url: "https://quantofaltaparacopa.com.br/",
       type: "website",
@@ -37,7 +37,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     },
     twitter: {
       card: "summary_large_image",
-      title: `Faltam ${daysToWorldCup} dias para a Copa do Mundo 2026!`,
+      title: `${daysToWorldCup === 1 ? "Falta 1 dia" : `Faltam ${daysToWorldCup} dias`} para a Copa do Mundo 2026!`,
       description: "Contagem regressiva para a Copa do Mundo de 2026.",
       images: ["https://quantofaltaparacopa.com.br/trophy.webp"],
     },

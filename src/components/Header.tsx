@@ -19,7 +19,7 @@ const Header = () => {
                         height={60}
                         priority
                     />
-                    <h1 className="gradient-text">Faltam {daysToWorldCup} dias para a copa</h1>
+                    <h1 className="gradient-text">{daysToWorldCup === 1 ? "Falta 1 dia" : `Faltam ${daysToWorldCup} dias`} para a copa</h1>
                 </Link>
             </div>
             <hr />
