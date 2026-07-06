@@ -37,13 +37,13 @@ const getArticles = async (): Promise<Article[]> => {
 };
 
 export const generateMetadata = async (): Promise<Metadata> => {
-    const description = "Últimas notícias da Copa do Mundo 2026.";
+    const description = "Últimas notícias da Copa do Mundo 2030.";
 
     return {
-        title: "Últimas notícias da Copa do Mundo 2026 | Quanto Falta Para a Copa",
+        title: "Últimas notícias da Copa do Mundo 2030 | Quanto Falta Para a Copa",
         description,
         openGraph: {
-            title: "Últimas notícias da Copa do Mundo 2026",
+            title: "Últimas notícias da Copa do Mundo 2030",
             description,
             url: "https://quantofaltaparacopa.com.br/news",
             type: "website",
@@ -52,13 +52,13 @@ export const generateMetadata = async (): Promise<Metadata> => {
                     url: "https://quantofaltaparacopa.com.br/trophy.webp",
                     width: 1200,
                     height: 630,
-                    alt: "Notícias da Copa 2026",
+                    alt: "Notícias da Copa 2030",
                 },
             ],
         },
         twitter: {
             card: "summary_large_image",
-            title: "Últimas notícias da Copa do Mundo 2026",
+            title: "Últimas notícias da Copa do Mundo 2030",
             description,
             images: ["https://quantofaltaparacopa.com.br/trophy.webp"],
         },
@@ -74,7 +74,7 @@ const NewsSection = async () => {
     return (
         <>
             <section id="news-container" className="container">
-                <h3 className="news-title">📰 Notícias da Copa 2026</h3>
+                <h3 className="news-title">📰 Notícias da Copa 2030</h3>
 
                 <div className="news-grid">
                     {articles && articles.length > 0 ?

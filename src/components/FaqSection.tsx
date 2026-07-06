@@ -8,7 +8,7 @@ interface FaqSectionProps {
 }
 
 const FaqSection = ({ items }: FaqSectionProps) => (
-  <section className="faq-section container">
+  <section className="faq-section container" id="learn-more-scroll-target">
     <h2 id="perguntas-frequentes">Perguntas frequentes</h2>
     {items.map((item, i) => (
       <div key={i} className="faq-section__item">

@@ -32,10 +32,10 @@ export const generateMetadata = async (
 
     const description =
         curiosity.content[0]?.substring(0, 160) ||
-        "Curiosidade sobre a Copa do Mundo 2026.";
+        "Curiosidade sobre a Copa do Mundo 2030.";
 
     return {
-        title: `${curiosity.title} | Curiosidades da Copa 2026`,
+        title: `${curiosity.title} | Curiosidades da Copa 2030`,
         description,
         openGraph: {
             title: curiosity.title,
@@ -109,7 +109,7 @@ export default async function CuriosityPage({ params }: CuriosityPageProps) {
                                 headline: curiosity.title,
                                 description:
                                     curiosity.content[0] ||
-                                    "Curiosidade sobre a Copa do Mundo 2026.",
+                                    "Curiosidade sobre a Copa do Mundo 2030.",
                                 image: "https://quantofaltaparacopa.com.br/trophy.webp",
                                 author: {
                                     "@type": "Organization",

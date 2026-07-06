@@ -5,13 +5,13 @@ import { Metadata } from "next";
 import Script from "next/script";
 
 export const generateMetadata = (): Metadata => ({
-    title: "Grupos da Copa do Mundo 2026 | Central da Copa",
+    title: "Grupos da Copa do Mundo 2030 | Central da Copa",
     description:
-        "Veja todos os 12 grupos oficiais da Copa do Mundo 2026, com as 48 seleções participantes, bandeiras e vagas que ainda serão definidas pelas repescagens.",
+        "Veja todos os 12 grupos oficiais da Copa do Mundo 2030, com as 48 seleções participantes, bandeiras e vagas que ainda serão definidas pelas repescagens.",
     openGraph: {
-        title: "Grupos da Copa do Mundo 2026",
+        title: "Grupos da Copa do Mundo 2030",
         description:
-            "Confira todos os 12 grupos da Copa 2026, com as 48 seleções e detalhes das repescagens europeias e intercontinentais.",
+            "Confira todos os 12 grupos da Copa 2030, com as 48 seleções e detalhes das repescagens europeias e intercontinentais.",
         url: "https://quantofaltaparacopa.com.br/central-da-copa/grupos",
         type: "article",
         images: [
@@ -19,15 +19,15 @@ export const generateMetadata = (): Metadata => ({
                 url: "https://quantofaltaparacopa.com.br/trophy.webp",
                 width: 1200,
                 height: 630,
-                alt: "Grupos da Copa do Mundo 2026",
+                alt: "Grupos da Copa do Mundo 2030",
             },
         ],
     },
     twitter: {
         card: "summary_large_image",
-        title: "Grupos da Copa do Mundo 2026",
+        title: "Grupos da Copa do Mundo 2030",
         description:
-            "Visualize os 12 grupos da Copa 2026, suas seleções e as vagas ainda em disputa nas repescagens.",
+            "Visualize os 12 grupos da Copa 2030, suas seleções e as vagas ainda em disputa nas repescagens.",
         images: ["https://quantofaltaparacopa.com.br/trophy.webp"],
     },
     alternates: {
@@ -40,9 +40,9 @@ const GroupsPage = () => (
         <div className="container" id="groups-page">
 
             <div className="groups-page-header">
-                <h1>Grupos da Copa do Mundo 2026</h1>
+                <h1>Grupos da Copa do Mundo 2030</h1>
                 <p>
-                    Confira os 12 grupos oficiais da Copa do Mundo FIFA 2026, com todas as 48 seleções —
+                    Confira os 12 grupos oficiais da Copa do Mundo FIFA 2030, com todas as 48 seleções —
                     incluindo vagas que ainda serão definidas pelas repescagens.
                 </p>
             </div>
@@ -81,9 +81,9 @@ const GroupsPage = () => (
                 __html: JSON.stringify({
                     "@context": "https://schema.org",
                     "@type": "Article",
-                    headline: "Grupos da Copa do Mundo 2026",
+                    headline: "Grupos da Copa do Mundo 2030",
                     description:
-                        "Todos os 12 grupos da Copa do Mundo FIFA 2026, com bandeiras, seleções confirmadas e vagas de repescagem.",
+                        "Todos os 12 grupos da Copa do Mundo FIFA 2030, com bandeiras, seleções confirmadas e vagas de repescagem.",
                     mainEntityOfPage:
                         "https://quantofaltaparacopa.com.br/central-da-copa/grupos",
                     publisher: {

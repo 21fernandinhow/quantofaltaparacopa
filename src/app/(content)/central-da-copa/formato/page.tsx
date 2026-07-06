@@ -4,13 +4,13 @@ import { Metadata } from "next";
 import Script from "next/script";
 
 export const generateMetadata = (): Metadata => ({
-    title: "Formato da Copa do Mundo 2026 | Central da Copa",
+    title: "Formato da Copa do Mundo 2030 | Central da Copa",
     description:
-        "Veja como funciona o novo formato da Copa do Mundo 2026: 48 seleções, 12 grupos, playoffs de 32 e todas as mudanças em relação às edições anteriores.",
+        "Veja como funciona o novo formato da Copa do Mundo 2030: 48 seleções, 12 grupos, playoffs de 32 e todas as mudanças em relação às edições anteriores.",
     openGraph: {
-        title: "Formato da Copa do Mundo 2026",
+        title: "Formato da Copa do Mundo 2030",
         description:
-            "Entenda o novo formato da Copa 2026: mais seleções, mais jogos e a nova etapa de playoffs antes das oitavas.",
+            "Entenda o novo formato da Copa 2030: mais seleções, mais jogos e a nova etapa de playoffs antes das oitavas.",
         url: "https://quantofaltaparacopa.com.br/central-da-copa/formato",
         type: "article",
         images: [
@@ -18,15 +18,15 @@ export const generateMetadata = (): Metadata => ({
                 url: "https://quantofaltaparacopa.com.br/trophy.webp",
                 width: 1200,
                 height: 630,
-                alt: "Copa do Mundo 2026",
+                alt: "Copa do Mundo 2030",
             },
         ],
     },
     twitter: {
         card: "summary_large_image",
-        title: "Formato da Copa do Mundo 2026",
+        title: "Formato da Copa do Mundo 2030",
         description:
-            "Entenda todas as mudanças do formato da Copa 2026: 48 seleções, 12 grupos e playoffs de 32.",
+            "Entenda todas as mudanças do formato da Copa 2030: 48 seleções, 12 grupos e playoffs de 32.",
         images: ["https://quantofaltaparacopa.com.br/trophy.webp"],
     },
     alternates: {
@@ -37,10 +37,10 @@ export const generateMetadata = (): Metadata => ({
 const WorldCupFormat = () => (
     <>
         <article className="container">
-            <h1>Formato da Copa do Mundo 2026</h1>
+            <h1>Formato da Copa do Mundo 2030</h1>
 
             <p>
-                A Copa do Mundo FIFA 2026 inaugura o maior formato da história do
+                A Copa do Mundo FIFA 2030 inaugura o maior formato da história do
                 torneio, passando de 32 para <strong>48 seleções</strong> e aumentando o
                 número total de partidas de <strong>64 para 104 jogos</strong>. O novo
                 modelo altera diretamente a fase de grupos, critérios de classificação
@@ -137,9 +137,9 @@ const WorldCupFormat = () => (
                 __html: JSON.stringify({
                     "@context": "https://schema.org",
                     "@type": "Article",
-                    headline: "Formato da Copa do Mundo 2026",
+                    headline: "Formato da Copa do Mundo 2030",
                     description:
-                        "Saiba como funciona o novo formato da Copa 2026: 48 seleções, playoffs de 32, mais jogos e mudanças estruturais.",
+                        "Saiba como funciona o novo formato da Copa 2030: 48 seleções, playoffs de 32, mais jogos e mudanças estruturais.",
                     mainEntityOfPage:
                         "https://quantofaltaparacopa.com.br/central-da-copa/formato",
                     publisher: {
