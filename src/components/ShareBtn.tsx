@@ -12,7 +12,7 @@ const ShareBtn = ({ days }: ShareBtnProps) => {
     const [open, setOpen] = useState(false);
 
     const postUrl = "https://quantofaltaparacopa.com.br/";
-    const shareMessage = `${days === 1 ? "Falta 1 dia" : `Faltam ${days} dias`} para a Copa do Mundo! Acompanhe a contagem regressiva em: ${postUrl}`;
+    const shareMessage = `${days === 1 ? "Falta 1 dia" : `Faltam ${days} dias`} para a próximaCopa do Mundo! Acompanhe a contagem regressiva em: ${postUrl}`;
 
     return (
         <>
